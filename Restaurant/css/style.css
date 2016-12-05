@@ -1,0 +1,40 @@
+
+/* Carousel Header Styles */
+.header-text {
+    position: absolute;
+    top: 20%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #000000;
+}
+
+.header-text h2 {
+    font-size: 40px;
+}
+
+.header-text h2 span {
+    background-color: transparent;
+	padding: 10px;
+}
+
+.header-text h3 span {
+	background-color: transparent;
+	padding: 15px;
+}
+
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.btn-theme {
+    color: #fff;
+    background-color: transparent;
+}
+
+
+.carousel-inner .item > img{
+	filter: blur(5px);
+  -webkit-filter: blur(5px);
+	}
