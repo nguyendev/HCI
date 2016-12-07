@@ -1,0 +1,43 @@
+/*
+Theme Name: TGHS
+Theme URI: http://click24h.net
+Author: TGHS
+Author URI: http://click24h.net
+Description: Trang web bản quyền thuộc về TGHS 5/2016
+Version: 4.2
+*/
+
+/* Imports */
+
+/* jQuery UI */
+@import "assets/css/jquery-ui.min.css";
+
+/* Font awesome */
+@import "assets/css/jquery.fancybox.css";
+
+/* UI Time picker */
+@import "assets/css/jquery.ui.timepicker.css";
+
+/* Extensions styles */
+@import "visual-composer/assets/css/main.css";
+
+/* Font awesome */
+@import "assets/css/font-awesome.min.css";
+
+/* Icon moon */
+@import "assets/css/iconmoon.css";
+
+/* Live customizer */
+@import "assets/css/frontend_customizer.css";
+
+/* Color Schemes */
+@import "assets/css/color-shemes.css";
+
+/* Color Schemes */
+@import "assets/css/vc.css";
+
+/* Custom styles */
+@import "assets/css/style.css";
+
+/* Media */
+@import "assets/css/media.css";

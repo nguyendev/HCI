@@ -1,0 +1,178 @@
+h1{
+}
+
+body {
+  background-image: url("background.png");
+}
+/* special-food */
+.special-food > h2 {
+	text-align:center;
+	color:#00F;
+
+	
+	font-family: "BertholdScript-u";
+	visibility: visible;
+    animation-delay: 0.2s;
+	font-size: 4.28em;
+    animation-name: fadeInDown;
+	    font-weight: 500;
+    line-height: 1.1;
+	-webkit-font-smoothing: antialiased;
+	    transform: translateY(-20px);
+		    font-weight: bold;
+			-webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+	/* font-variant: small-caps;*/
+}
+special-food > h3 {
+	font-weight: bold;
+	color:#000 !important;
+	
+}
+div.special.promotion{
+}
+
+.item-image-wrapper {
+    border: 1px solid #F7F7F5;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+
+/* Carousel Header Styles */
+.header-text {
+    position: absolute;
+    top: 20%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #000000;
+}
+
+.header-text h2 {
+    font-size: 40px;
+}
+
+.header-text h2 span {
+    background-color: transparent;
+	padding: 10px;
+}
+
+.header-text h3 span {
+	background-color: transparent;
+	padding: 15px;
+}
+
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.btn-theme {
+    color: #fff;
+    background-color: transparent;
+}
+
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+    text-shadow: 0 0 0 rgba(0,0,0,.25);
+	color: #337ab7 ;
+	 font-weight: bold;
+}
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1);
+    background-color: rgba(255, 255, 255, 1);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}	
+	.bs-docs-nav {
+		
+		background: rgba(0, 27, 47, 0.8);
+		background-color: transparent;
+		}
+		
+		
+		
+/*social-top*/
+.social-top>a {
+    display: inline-block !important;
+    font-size: 15px !important;
+    color: #fff !important;
+	background: none !important;
+    padding: 2px 6px !important;
+    margin-top: 12px !important;
+}
+
+
+
+
+
+
+/*special-food*/
+
+.special-food-control {
+    background-image: none !important;
+}
+.icon-nav.icon-prev {
+    background-image: url('icon-prev.png');
+}
+.icon-nav.icon-next {
+    background-image: url('icon-next.png');
+}
+.special-food-indicators {
+	bottom: -20px;
+}
+
+
+/*special-promotion*/
+.special-promotion > div {
+	margin-bottom:auto;
+}
+.special-promotion > div > h2 {
+	background-image: none !important; 
+	font-family: "BertholdScript-u";
+	visibility: visible;
+    animation-delay: 0.2s;
+	font-size: 4.28em;
+    animation-name: fadeInDown;
+	    font-weight: 500;
+    
+	-webkit-font-smoothing: antialiased;
+	    
+	font-weight: bold;
+	
+}
+
+
+.p-after-h2 {
+
+	text-align:center;
+	-webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.view-detail {
+	text-align:center;
+	}
+	
+	
+	
+.footer-widget > div >div > div > h3{
+	font-family: "BertholdScript-u";
+	visibility: visible;
+    animation-delay: 0.2s;
+	
+    animation-name: fadeInDown;
+	    font-weight: 500;
+   
+	
+	    
+		    			
+	
+	
+	}
