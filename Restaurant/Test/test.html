@@ -7,20 +7,31 @@
 
 <body>
 <div class="block-quydinhgiaohang visible-xs">
-	<div><a href="http://wrap-roll.com/thuc-don/thuc-don-giao-hang"><i class="icon-quydinh"></i><span>Thực đơn giao hàng</span></a></div>
-	<div><i class="icon-phone"></i><span>(+84) 08 3837 1231</span></div>
-	<img src="./Wrap &amp; Roll_files/icon-giaohang.png" alt="">
-</div>
-<div class="block-quydinhgiaohang2 hidden-xs">
-	<div class="icon icon-2">
-		<div class="quydinh-tip quydinh-tip-2">(+84-8) 3837 1231</div>
-		<img src="2.png" alt="">
+        <!--<div>
+            <a href="http://wrap-roll.com/thuc-don/thuc-don-giao-hang">
+            	<i class="icon-quydinh"></i><span>Thực đơn giao hàng</span>
+            </a>
+        </div>-->
+		<div>
+           <!-- <i class="icon-phone"></i>
+   			<span>(+84) 08 3837 1231</span>-->
+        </div>
+		<img src="./Wrap &amp; Roll_files/icon-giaohang.png" alt="">
 	</div>
-	<div class="icon icon-1">
-		<a href="http://wrap-roll.com/thuc-don/thuc-don-giao-hang"><div class="quydinh-tip quydinh-tip-1">Thực đơn giao hàng</div></a>
-		<img src="1.png" alt="">
+	<div class="block-quydinhgiaohang2 hidden-xs">
+        <div class="icon icon-2">
+            <div class="quydinh-tip quydinh-tip-2">
+            	<a href="hell"><img src="assets/img/skype.png" width="75" height="75"></span></a>
+            </div>
+            <img src="assets/img/2.png" width="74" height="75">
+        </div>
+        <!--<div class="icon icon-1">
+            <a href="http://wrap-roll.com/thuc-don/thuc-don-giao-hang">
+                <div class="quydinh-tip quydinh-tip-1">Thực đơn giao hàng</div>
+            </a>
+            <img src="assets/img/1.png" width="74" height="75">
+        </div>-->
 	</div>
-</div>
 <style>
 	.block-quydinhgiaohang2 {
 		position: fixed;
@@ -45,10 +56,10 @@
 		border:3px solid transparent;
 		border-radius: 50%;
 	}
-	.icon-1::before {
+	/*.icon-1::before {
 		border-color:#fec945;
 		animation: light 1s linear infinite;
-	}
+	}*/
 	.icon-2::before {
 		border-color:#b6d534;
 		animation: light 1s linear infinite;
@@ -74,7 +85,7 @@
 		text-transform: uppercase;
 		padding:5px 20px;
 		transform: translateY(-50%);
-		-webkit-transform: translateY(-50%);
+		-webkit-transform: tran	slateY(-50%);
 		-moz-transform: translateY(-50%);
 		opacity: 0;
 		text-align: center;
@@ -86,7 +97,7 @@
 
 	}
 	.quydinh-tip::before {
-		content:'';
+		/*content:'';
 		position: absolute;
 		width:10px;
 		height:20px;
@@ -97,13 +108,13 @@
 		-webkit-transform: translateY(-50%);
 		-moz-transform: translateY(-50%);
 		-webkit-clip-path: polygon(0 0, 0% 100%, 100% 50%);
-		clip-path: polygon(0 0, 0% 100%, 100% 50%);
+		clip-path: polygon(0 0, 0% 100%, 100% 50%);*/
 	}
-	.quydinh-tip-1 {background-color:#ed8100;color:#fff;}
+	/*.quydinh-tip-1 {background-color:#ed8100;color:#fff;}*/
 	.quydinh-tip-2 {background-color:#34904b;color:#fff;}
-	.quydinh-tip-1::before {
+	/*.quydinh-tip-1::before {
 		background-color: #ed8100;
-	}
+	}*/
 	.quydinh-tip-2::before {
 		background-color: #34904b;
 	}
@@ -115,7 +126,6 @@
 	@media (max-width:1280px) {
 		.icon img {width:60px;}
 	}
-</style>
 <!-- Large modal -->
 </body>
 </html>

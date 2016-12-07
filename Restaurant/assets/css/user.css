@@ -5,26 +5,18 @@ body {
   background-image: url("background.png");
 }
 /* special-food */
-.special-food > h2 {
-	text-align:center;
-	color:#00F;
-
-	
+.special-food > h2 ,.new-food > h2 {
+	background-image: none !important; 
 	font-family: "BertholdScript-u";
 	visibility: visible;
     animation-delay: 0.2s;
 	font-size: 4.28em;
     animation-name: fadeInDown;
 	    font-weight: 500;
-    line-height: 1.1;
+    text-align:center;
 	-webkit-font-smoothing: antialiased;
-	    transform: translateY(-20px);
-		    font-weight: bold;
-			-webkit-margin-before: 0.83em;
-    -webkit-margin-after: 0.83em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-	/* font-variant: small-caps;*/
+	    
+	font-weight: bold;
 }
 special-food > h3 {
 	font-weight: bold;
@@ -41,7 +33,7 @@ div.special.promotion{
 }
 
 
-/* Carousel Header Styles */
+ Carousel Header Styles 
 .header-text {
     position: absolute;
     top: 20%;
@@ -78,21 +70,24 @@ div.special.promotion{
 
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
     text-shadow: 0 0 0 rgba(0,0,0,.25);
-	color: #337ab7 ;
+	color: #FFFFFF ;
 	 font-weight: bold;
 }
+
+
 .navbar-nav>li>a:hover,
 .navbar-nav>li>a:focus {
-    color: rgba(51, 51, 51, 1);
-    background-color: rgba(255, 255, 255, 1);
-    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    color: rgba(255,0,0,1) !important;
+    background-color:  255, 255, 1) !important;
+   	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
     background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
 }	
-	.bs-docs-nav {
+.bs-docs-nav {
 		
-		background: rgba(0, 27, 47, 0.8);
-		background-color: transparent;
-		}
+	background: rgba(37,65,83,1);
+	/*background-color: transparent;*/
+	
+}
 		
 		
 		
@@ -122,12 +117,14 @@ div.special.promotion{
 .icon-nav.icon-next {
     background-image: url('icon-next.png');
 }
-.special-food-indicators {
+.special-food-indicators,
+.new-food-indicators
+{
 	bottom: -20px;
 }
 
 
-/*special-promotion*/
+special-promotion
 .special-promotion > div {
 	margin-bottom:auto;
 }
@@ -169,10 +166,40 @@ div.special.promotion{
 	
     animation-name: fadeInDown;
 	    font-weight: 500;
-   
+}
 	
-	    
-		    			
-	
-	
-	}
+.img-silder {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+
+.navbar-nav>.active {
+    color: #3F9 !important;
+    background-color: #66FF33 !important;
+}
+
+
+hr.special-food-hr {
+	border-top: 4px double #8c8b8b;
+	text-align: center;
+}
+hr.special-food-hr:after {
+	content: '\002756';
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 0 10px;
+	background: #A4DDEC;
+	color: #8c8b8b;
+	font-size: 20px;
+}
