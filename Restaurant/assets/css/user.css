@@ -540,3 +540,17 @@ effect image
     top: 0;
     left: 0;
 	-webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+}
+
+.phone-reservation {
+
+padding-left: 600px;
+
+padding-right: 600px;
+
+width: 100%;
+
+border-radius: 6px;
+
+}
+
