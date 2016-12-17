@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
-    <title>Đặt bàn</title>
+    <title>Liên hệ</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/user.css">
@@ -13,8 +13,6 @@
     <link rel="stylesheet" type="text/css" href="assets/css/bottomtotop.css">
 	<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/_all-skins.min.css">
-	    <!-- <link rel="stylesheet" href="assets/css/AdminLTE.min.css"> -->
-
 </head>
 <style>
   .carousel-inner > img,
@@ -47,11 +45,11 @@
                         <li role="presentation" class="menu-item"><a href="news.html">Tin tức</a></li>
                         <li role="presentation" class="menu-item"><a href="khuyen_mai.html">Khuyến mãi</a></li>
                         <li role="presentation" class="menu-item"><a href="kien_thuc.html">Kiến thức ẩm thực</a></li>
-                        <li role="presentation" class="menu-item active"><a href="reservation.html">Đặt bàn</a></li>
+                        <li role="presentation" class="menu-item"><a href="reservation.html">Đặt bàn</a></li>
                         <li role="presentation" class="menu-item dropdown">
                         	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
                             aria-haspopup="true" aria-expanded="false">Liên hệ <span class="caret"></span></a>
-                          <ul class="dropdown-menu">
+                          <ul class="dropdown-menu active">
                             <li><a href="#">Tuyển dụng</a></li>
                             <li><a href="feedback.html">Phản hồi</a></li>
                             <li><a href="contact.html">Liên hệ</a></li>
@@ -108,13 +106,12 @@
                 <p class="text-center text-primary">Khi có nhu cầu đặt tiệc, liên hoan, cưới hỏi..., bạn có thể đặt bàn trực tiếp ngay dưới đây vào bất kì thời gian nào trong ngày. Trong vòng 48 giờ sau khi đặt bàn, nhà hàng chúng tôi sẽ liên lạc trực tiếp với quý khách để xác nhận thông tin
 				</p>
 				<br/>
-				<div class="form-group px1">
-					<div class="box box-info px2">
-
+					<!-- <div class="box box-info"> -->
+						<div class="box-body">
 							<div class="form-group">
 								<div class="control-label col-md-6">
-                                    <div class="my-control-label col-md-3 px3">
-                                        <b>Họ tên</b>
+                                    <div class="my-control-label col-md-4">
+                                        Họ tên
                                     </div>
                                     <div class="col-md-8">
                                         <div class="input-group">
@@ -124,8 +121,8 @@
                                     </div>
 								</div>
 								<div class="control-label col-md-6">
-                                    <div class="my-control-label col-md-3">
-                                        <b>Số người</b>
+                                    <div class="my-control-label col-md-4">
+                                        Số người
                                     </div>
                                     <div class="col-md-8">
                                         <div class="input-group">
@@ -137,10 +134,11 @@
 							</div>
 							<br/>
 							<br/>
+							<br/>
 							<div class="form-group">
 								<div class="control-label col-md-6">
-                                    <div class="my-control-label col-md-3 px3">
-                                        <b>Ngày</b>
+                                    <div class="my-control-label col-md-4">
+                                        Ngày
                                     </div>
                                     <div class="col-md-8">
                                         <div class="input-group">
@@ -150,8 +148,8 @@
                                     </div>
 								</div>
 								<div class="control-label col-md-6">
-                                    <div class="my-control-label col-md-3">
-                                       <b>Giờ</b>
+                                    <div class="my-control-label col-md-4">
+                                        Giờ
                                     </div>
                                     <div class="col-md-8">
                                         <div class="input-group">
@@ -165,8 +163,8 @@
 							<br/>
                             <div class="form-group">
 								<div class="control-label col-md-6">
-                                    <div class="my-control-label col-md-3 px3">
-                                        <b>Email</b>
+                                    <div class="my-control-label col-md-4">
+                                        Email
                                     </div>
                                     <div class="col-md-8">
                                         <div class="input-group">
@@ -176,8 +174,8 @@
                                     </div>
 								</div>
 								<div class="control-label col-md-6">
-                                    <div class="my-control-label col-md-3">
-                                        <b>Số điện thoại</b>
+                                    <div class="my-control-label col-md-4">
+                                        Số điện thoại
                                     </div>
                                     <div class="col-md-8">
                                         <div class="input-group">
@@ -192,12 +190,12 @@
 							<br/>
 							<div class="form-group">
 								<div class="text-center">
-									<a href="#" class="button1">Đặt bàn</a>
+									<a href="#" class="button1 ">Đặt bàn</a>
 								</div>	
 							</div>
-					</div>
-				</div>                   
-			</div>
+						</div>
+					<!-- </div>                    -->
+                </div>
     		<div class="container">
     		<hr class="special-food-hr">
             </div> 
@@ -341,7 +339,5 @@
 			$(function(){$(".scroll").click(function(){$("html,body").animate({scrollTop:$(".thetop").offset().top},"1000");return false})})      
     </script>
 </body>
-<style>
 
-</style>
 </html>
