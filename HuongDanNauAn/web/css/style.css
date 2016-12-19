@@ -13,7 +13,7 @@ p{
 	margin:0;
 }
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Alex Brush', cursive;
+	font-family: 'Arial', cursive;
 	font-weight:100;
 	margin:0;
 }
@@ -38,7 +38,6 @@ body a:hover{
 .navbar-brand {
     float: left;
     height: 80px;
-    padding: 31px 0 0;
     font-size: 3.5em;
     line-height: 20px;
     color: #fff !important;
@@ -2166,4 +2165,11 @@ ul.last1 li{
 	.nobis {
 		margin: 1em 0 0.5em;
 	}
+}
+
+.navbar-item-right {
+	float: right;
+	
+    color: #fff !important;
+    font-family: 'Alex Brush', cursive;
 }
