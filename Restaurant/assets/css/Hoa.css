@@ -7,7 +7,7 @@
 .form-group.px1{padding-left: 50px;padding-right: 50px;}
 .form-group.px2{padding-left: 350px;padding-right: 350px;}
 .form-control.px1{padding-left: 50px;padding-right: 50px;}
-.form-control.px2{border:2px solid;border-radius: 25px;border-color:transparent;}
+.form-control.px2{border:1px solid;border-radius: 25px;border-color:rgb(0,0,0);}
 .box.box-info.px2{border-radius: 25px;}
 .my-control-label.col-md-3.px3{padding-left: 50px;}
 .box{position:relative;border-radius:3px;background:#ffffff;border-top:3px solid #d2d6de;margin-bottom:20px;width:100%;box-shadow:0 1px 1px rgba(0,0,0,0.1)}
