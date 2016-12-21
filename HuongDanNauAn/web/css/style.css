@@ -379,7 +379,7 @@ nav.cl-effect-13 a {
     left: 55.5%;
     width: 85%;
     height: 125px;
-    background: #F3F3F3;
+    /*background: #F3F3F3;*/
 }
 .banner-bottom-grid-11-pos p{
 	font-size: 14px;
@@ -414,7 +414,7 @@ nav.cl-effect-13 a {
 	-ms-background-size:cover;
 	min-height:300px;
 }
-.newsletter{
+.newsletter, .login{
 	background:url(../images/3.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	-webkit-background-size:cover;
@@ -424,24 +424,24 @@ nav.cl-effect-13 a {
 	min-height:500px;
 	padding:8em 0 0;
 }
-.newsletter-info h3{
+.newsletter-info h3, .login-info h3{
 	font-size: 5em;
 	margin:0;
 	color:#fff;
 }
-.newsletter-info p{
+.newsletter-info p, .login-info p{
 	color: #D2D0CF;
     font-size: 14px;
     margin: 1em auto 3em;
     line-height: 1.8em;
     width: 60%;
 }
-.newsletter-info{
+.newsletter-info, .login-info{
 	width:70%;
 	margin:0 auto;
 	text-align:center;
 }
-.newsletter-info input[type="mail"]{
+.newsletter-info input[type="email"]{
 	outline:none;
 	border:none;
 	padding:10px 12px;
@@ -451,6 +451,27 @@ nav.cl-effect-13 a {
 	width:70%;
 	display:inline-block;
 }
+
+.newsletter input[type="email"], .login-info input[type="password"]{
+	background: none;
+    border: 1px solid #D9D9D9;
+    margin: 0 5px;
+    color: #A3A3A3;
+    padding: 13px 10px;
+    font-size: 14px;
+    outline: none;
+    float: none;
+}
+/*.newsletter-info input[type="password"]{
+	outline:none;
+	border:none;
+	padding:10px 12px;
+	background:#fff;
+	font-size:14px;
+	color:#1d1811;
+	width:70%;
+	display:inline-block;
+}*/
 .newsletter-info input[type="submit"]{
 	color:#fff;
 	padding:10px 0;
