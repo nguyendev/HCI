@@ -1,0 +1,30 @@
+/* CSS Document */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    /* line-height: 1.1; */
+    color: inherit;
+}
+
+.footer-grid h3 {
+    color: #f57708;
+    /* font-size: 1.8em; */
+    text-transform: capitalize;
+    margin: 0 0 1em;
+}
+
+.login-info input[type="submit"], .contact-left input[type="reset"] {
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 13px 0;
+    width: 49.7%;
+    background: GREEN;
+    border: none;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition: .5s all;
+	font-weight: bold;
+}

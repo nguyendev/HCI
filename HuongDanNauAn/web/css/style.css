@@ -1,6 +1,6 @@
 /*--
-Author: W3layouts
-Author URL: http://w3layouts.com
+Author: Group03
+Author URL: http://Group03.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
@@ -581,7 +581,7 @@ nav.cl-effect-13 a {
 }
 .contact h1,h1.title,.events h1,.featured-events h2,.services h1,.services-grids h2{
 	font-size: 3em;
-    color: #1D1811;
+    color: #afef1a;
     margin: 0;
 }
 .contact-bottom iframe{
@@ -645,13 +645,14 @@ nav.cl-effect-13 a {
     font-size: 16px;
     padding: 13px 0;
     width: 49.7%;
-    background:#AC915A;
+    background: green; 
     border: none;
     transition: .5s all;
     -webkit-transition: .5s all;
     -moz-transition: .5s all;
     -o-transition: .5s all;
     -ms-transition: .5s all;
+	font-weight: bold;
 }
 .contact-left input[type="submit"]:hover,.contact-left input[type="reset"]:hover{
 	background:#F8782D;
@@ -1950,7 +1951,7 @@ ul.last1 li{
 		margin: 0.5em 0;
 	}
 	.contact-left input[type="submit"], .contact-left input[type="reset"] {
-		width: 100%;
+		width: 48%;
 	}
 	.contact-left input[type="submit"]{
 		margin-bottom:1em;
