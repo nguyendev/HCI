@@ -102,6 +102,7 @@ header h1 {
   width: 4px;
   background: limegreen;
   margin-bottom: 100px;
+  margin-left: 10px;
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
@@ -112,6 +113,10 @@ header h1 {
     left: 50%;
     margin-left: -2px;
   }
+}
+.pink
+{
+	margin-left: 18px;
 }
 .label.label-success{
   position: absolute;
@@ -166,7 +171,7 @@ header h1 {
 .cd-timeline-img {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 10px;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -272,6 +277,7 @@ header h1 {
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
+  margin-right: 10px;
   background: white;
   border-radius: 0.25em;
   padding: 1em;
@@ -323,7 +329,27 @@ header h1 {
 }
 .cd-timeline-content
 {
-	background-color: white !important;
+	background-color: aliceblue !important;
+}
+.sl-ratting
+{
+	width: 100%;
+	height:auto;
+	margin:0 auto;
+	padding:10px;
+	position:relative;
+}
+.mark-div-content
+{
+	background: aliceblue! important;
+}
+.br-widget
+{
+	width: 100%;
+	height:auto;
+	margin:0 auto;
+	padding:10px;
+	position:relative;
 }
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
