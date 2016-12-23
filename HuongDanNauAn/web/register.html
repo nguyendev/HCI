@@ -20,11 +20,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/nguyen.css" rel="stylesheet" />
 <link href="css/AdminLTE.min.css" rel="stylesheet" />
+<!-- icheck plugin-->
+<link href="css/blue.css" rel="stylesheet" />
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
 <!-- Ionicons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-<link href="css/blue.css" rel="stylesheet" />
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
 <!-- //js -->
@@ -99,35 +100,38 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- header -->
 
 <!-- newsletter -->
-	<div class="login">
+	<div class="register">
 		<div class="container">
-			<div class="login-info">
-				<h3 class="wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">Đăng nhập</h3>
-				<p class="wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">Hãy đăng nhập để sử dụng những chức năng mà chỉ duy nhất thành viên của chúng tôi mới có</p>
+			<div class="register-info">
+				<h3 class="wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">Đăng ký nhanh</h3>
+				<p class="wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">Hãy đăng ký để sử dụng những chức năng mà chỉ duy nhất thành viên của chúng tôi mới có</p>
 
-                    <form class="wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <div class="form-group">
-                                <input type="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" value="Mật khẩu" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nhập mật khẩu của bạn';}" required>
-                            </div>
+                <form class="wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <div class="row">
+                        <div class="form-group">
+                            <input type="text" value="Tên đăng nhập" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Tên đăng nhập của bạn';}" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" value="Mật khẩu" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nhập mật khẩu của bạn';}" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" value="Xác nhận mật khẩu" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nhập lại mật khẩu của bạn';}" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+                        </div>
                         <div class="row">
                             <div class="col-xs-8">
-                                <div class="checkbox icheck">
-                                    <label>
-                                        <input type="checkbox"> Ghi nhớ
-                                    </label>
-                                </div>
+                                <label>
+                                    <input type="checkbox"> Tôi đồng ý với <a href="#">quy định</a>
+                                </label>
                             </div>
-                            <!-- /.col -->
                             <div class="col-xs-4">
-                                <button type="submit" class="btn btn-primary btn-block btn-flat">Đăng nhập</button>
-                            </div>
-                            <!-- /.col -->
+                                <input type="submit" class="btn btn-primary btn-block btn-flat" value="Đăng ký">
+                           </div>
                         </div>
-                    </form>
-                    <div class="social-auth-links text-center">
+                    </div>
+                    <div class="social-auth-links text-center ">
                         <p>- OR -</p>
                         <a href="#" class="btn btn-block btn-social btn-facebook btn-flat">
                             <i class="fa fa-facebook"></i> Đăng nhập qua
@@ -138,10 +142,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             Google+
                         </a>
                     </div>
-                    <!-- /.social-auth-links -->
-                    <a href="#">Tôi quên mật khẩu</a><br>
-                    <a href="register.html" class="text-center">Đăng ký thành viên</a>
+                </form>
                 
+                <a href="login.html" class="text-center">Tôi đã là thành viên</a>
 			</div>
             <!-- Top content -->
         </div>
