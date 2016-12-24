@@ -28,3 +28,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     -ms-transition: .5s all;
 	font-weight: bold;
 }
+
+#map {
+        height: 400px;
+        width: 100%;
+       }
+	   
+.contact{
+		padding: 1em 0;
+	}
