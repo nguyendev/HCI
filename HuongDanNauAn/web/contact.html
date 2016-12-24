@@ -54,11 +54,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 					<nav class="cl-effect-13" id="cl-effect-13">
-						<ul class="nav navbar-nav">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="events.html">News & Events</a></li>
-							<li><a href="short-codes.html">Short Codes</a></li>
-							<li role="presentation" class="dropdown">
+						<ul class="nav navbar-nav" style="font-weight: bold !important; font-size: 20px">
+							<li><a href="index.html" class="active">Trang chủ</a></li>
+							<li><a href="events.html">Tin tức</a></li>
+							<li><a href="short-codes.html">Công thức nấu ăn</a></li>
+                            <li><a href="#">Đăng bài mới</a></li>
+							<!--<li role="presentation" class="dropdown">
 								<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
 								  Services <span class="caret"></span>
 								</a>
@@ -66,8 +67,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								  <li><a href="services.html">Door Delivery</a></li>
 								  <li><a href="services.html">Direct Delivery</a></li>
 								</ul>
-							</li>
-							<li><a href="contact.html" class="active">Liên hệ</a></li>
+							</li>-->
+							<li><a href="#">Diễn đàn</a></li>
+                            <li><a href="contact.html">Liên hệ</a></li>
 						</ul>
 					</nav>
 					<div class="social-icons">
@@ -86,19 +88,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- header -->
 <!-- banner1 -->
 	<div class="banner1 contact">
-		<div class="container">
-				<h1 class="animated fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="300ms">Liên hệ với chúng tôi</h1>
+		<div style="margin-top:2em;font-family:sans-serif, Tahoma, Geneva; text-align:center">
+				<h1 >Liên hệ với chúng tôi</h1>
 		</div>
 	</div>
 <!-- //banner1 -->
 <!-- contact -->
 	<div class="contact">
 		<div class="container">
-			<div class="contact-bottom wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2564.958900464012!2d36.23097800000001!3d49.993379999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a0f009ab9f07%3A0xa21e10f67fa29ce!2sGeorgia+Education+Center!5e0!3m2!1sen!2sin!4v1436943860334" frameborder="0" style="border:0" allowfullscreen></iframe>
-			</div>
 			<div class="col-md-4 contact-left wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-				<h4>Địa chỉ</h4>
+				<h4>Bản đồ</h4>
+           		<div id="map"></div>
+                <h4>Địa chỉ</h4>
 				<h2>Số 3 Nguyễn Thị Minh Khai, phường Bến Nghé, quận 1, Thành phố Hồ Chí Minh</h2>
                 <h4>Liên hệ</h4>
 				<ul>
@@ -179,5 +180,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- for bootstrap working -->
 	<script src="js/bootstrap.js"></script>
 <!-- //for bootstrap working -->
+	<script>
+      function initMap() {
+        var uluru = {lat: 10.789809, lng: 106.704365}; 
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+   <script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBoKr27kWgFaBBtF8VCX3CcXR5Ke3n4oWQ&callback=initMap">
+	</script>
 </body>
 </html>
