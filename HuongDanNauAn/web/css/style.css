@@ -150,7 +150,7 @@ nav.cl-effect-13 a {
     background: url(../images/img-sp.png) no-repeat -4px -1px;
     width: 30px;
     height: 30px;
-    border: 2px solid #d2d0cf;
+    border: 2px solid #000000;
 }
 .icon-link.facebook:hover{
 	background:url(../images/img-sp.png) no-repeat -41px -2px #fff;
@@ -164,7 +164,7 @@ nav.cl-effect-13 a {
     background: url(../images/img-sp.png) no-repeat -4px -38px;
     width: 30px;
     height: 30px;
-    border: 2px solid #d2d0cf;
+    border: 2px solid #000000;
 }
 .icon-link.p:hover {
     background: url(../images/img-sp.png) no-repeat -40px -38px #fff;
@@ -174,7 +174,7 @@ nav.cl-effect-13 a {
     background:url(../images/img-sp.png) no-repeat 0px -74px;
     width: 30px;
     height: 30px;
-    border: 2px solid #d2d0cf;
+    border: 2px solid #000000;
 }
 .icon-link.twitter:hover {
     background:url(../images/img-sp.png) no-repeat -40px -74px #fff;
@@ -184,7 +184,7 @@ nav.cl-effect-13 a {
     background:url(../images/img-sp.png) no-repeat -1px -110px;
     width: 30px;
     height: 30px;
-    border: 2px solid #d2d0cf;
+    border: 2px solid #000000;
 }
 .icon-link.dribble:hover {
     background:url(../images/img-sp.png) no-repeat -38px -110px #fff;

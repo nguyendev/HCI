@@ -283,24 +283,15 @@ header h1 {
   margin: 0 auto 0 auto;
   position: relative;
 }
-
-/* .top h2 { */
-  /* color: black; */
-  /* margin: 0; */
-  /* padding: 10px; */
-/* } */
-
-/* .lr p { */
-  /* font-family: 'Roboto', sans-serif; */
-  /* position: absolute; */
-  /* bottom: 20px; */
-  /* left: 20px; */
-  /* color: white; */
-  /* margin: 0; */
-/* } */
-
+.cornerimage {
+	border: 0;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 40px;
+	height: 40px;
+} 
 .recipetitle {
-  /* font-family: 'Roboto', sans-serif; */
   color: white;
   margin: 0;
   position: absolute;
@@ -310,12 +301,6 @@ header h1 {
   transform: translate(-50%, -50%);
 }
 
-/* .cap p { */
-  /* padding: 20px; */
-  /* color: white; */
-  /* font: 12px Monaco, Mono-Space; */
-  /* margin: 0; */
-/* } */
 .text-left
 {
 	margin-left: 20px;
@@ -323,6 +308,19 @@ header h1 {
 .text-right
 {
 	margin-right: 50px;
+}
+.share-icons {
+    text-align: right;
+}
+.save-icons
+{
+    text-align: left;
+}
+.icon-link.star {
+    background: url(../img/star.png) no-repeat -1px -110px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #d2d0cf;
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
