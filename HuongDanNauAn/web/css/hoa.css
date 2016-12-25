@@ -276,12 +276,14 @@ header h1 {
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
     ),
-    url(../images/main.jpg);  background-size: cover;
+    url(../images/main.jpg);  
+  background-size: cover;
   background-color: rgba(0, 0, 0, 0.40);
   width: 93%;
   height: 180px;
   margin: 0 auto 0 auto;
   position: relative;
+  
 }
 .cornerimage {
 	border: 0;

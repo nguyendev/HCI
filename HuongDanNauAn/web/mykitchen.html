@@ -1,0 +1,539 @@
+﻿<!--
+Author: Group03
+Author URL: http://group03.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Bếp của tôi</title>
+<link href="css/animate.min.css" rel="stylesheet"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Cooks Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<link rel="icon" href="images/icon.png">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/nguyen.css" rel="stylesheet" />
+<link href="css/hoa.css" rel="stylesheet" />
+
+<style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+@import url("http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+<!-- body { -->
+  <!-- <!-- font: 14px/1 'Open Sans', sans-serif; --> -->
+  <!-- color: #555; -->
+  <!-- background: #eee; -->
+<!-- } -->
+
+<!-- h1 { -->
+  <!-- padding: 50px 0; -->
+  <!-- font-weight: 400; -->
+  <!-- text-align: center; -->
+<!-- } -->
+
+p {
+  margin: 0 0 20px;
+  line-height: 1.5;
+}
+p.cap {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #999;
+    padding-bottom: 10px;
+}
+main {
+  min-width: 320px;
+  max-width: 800px;
+  padding: 15px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+section {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
+}
+
+input[type="radio"] 
+{
+    display: none;
+}
+
+label {
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 15px 22px;
+    font-weight: 600;
+    text-align: center;
+}
+
+label:before {
+  font-family: fontawesome;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+<!-- label[for*='1']:before { -->
+  <!-- content: '\f1cb'; -->
+<!-- } -->
+
+<!-- label[for*='2']:before { -->
+  <!-- content: '\f17d'; -->
+<!-- } -->
+
+label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+input:checked + label {
+  color: white;
+  background: limegreen;
+  border: 1px solid limegreen;
+  border-top: 2px solid limegreen;
+  border-bottom: 1px solid #fff;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2 {
+  display: block;
+}
+
+@media screen and (max-width: 650px) {
+  label {
+	font-size: 16px;
+  }
+
+  label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 400px) {
+  label 
+  {
+	padding: 20px 13px;
+  }
+}
+.streamItem {
+    background-color: #fff;
+    border-bottom: 8px solid #EDEEF2;
+    padding: 20px 0;
+    position: relative;
+}
+.streamItem-answer {
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+.streamItemOptions {
+    border-top: solid 1px #EDEEF2;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 18px;
+    height: 44px;
+}
+
+.likeButton { 
+    float: left;
+}
+.shareButton { 
+    float: right;
+}
+.icon-link.delete {
+    background: url(img/icon-delete.png);
+	width: 30px;
+    height: 30px;
+    border: 2px solid #000000;
+}
+.icon-link.edit {
+    background: url(img/icon-edit.png);
+    width: 30px;
+    height: 30px;
+    border: 2px solid #000000;
+}
+.prepare-perform-level {
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    margin-left: 15px;
+    padding: 20px 0px;
+    position: relative;
+    z-index: 105;
+}
+.cd-container
+{
+    padding-bottom: 20px;
+}
+</style>
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<!-- animation-effect -->
+
+<script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
+<!-- //animation-effect -->
+<link href='//fonts.googleapis.com/css?family=Alex+Brush' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<!-- header -->
+	<div class="header">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+               
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+                  
+					<div class="logo">
+						<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Cooks" class="img-responsive"/></a>
+					</div>
+                    <div class="">
+                        <a class="navbar-brand-other" href="login.html">Đăng nhập</a>
+                    </div>
+     
+                    
+                 
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+					<nav class="cl-effect-13" id="cl-effect-13">
+						<ul class="nav navbar-nav" style="font-weight: bold !important; font-size: 20px">
+							<li><a href="index.html" class="active">Trang chủ</a></li>
+							<li><a href="events.html">Tin tức</a></li>
+							<li><a href="recipelist.html">Công thức nấu ăn</a></li>
+                            <li><a href="#">Đăng bài mới</a></li>
+							<!--<li role="presentation" class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+								  Services <span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+								  <li><a href="services.html">Door Delivery</a></li>
+								  <li><a href="services.html">Direct Delivery</a></li>
+								</ul>
+							</li>-->
+							<li><a href="mail.html">Diễn đàn</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+						</ul>
+					</nav>
+					<div class="social-icons">
+						<ul>
+							<li><a class="icon-link round facebook" href="#"></a></li>
+							<li><a class="icon-link round p" href="#"></a></li>
+							<li><a class="icon-link round twitter" href="#"></a></li>
+							<li><a class="icon-link round dribble" href="#"></a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /.navbar-collapse -->
+			</nav>
+            <div class="form-group">
+                <input type="search" value="Tìm kiếm" />
+                <span class="glyphicon glyphicon-search"></span>
+            </div>
+		</div>
+	</div>
+<!-- header -->
+<!-- banner -->
+	<main>
+	  
+	  <input id="tab1" type="radio" name="tabs" checked>
+	  <label for="tab1">Công thức của tôi</label>
+		
+	  <input id="tab2" type="radio" name="tabs">
+	  <label for="tab2">Công thức tôi thích</label>
+		
+	  <!-- <input id="tab3" type="radio" name="tabs"> -->
+	  <!-- <label for="tab3">Dropbox</label> -->
+		
+	  <!-- <input id="tab4" type="radio" name="tabs"> -->
+	  <!-- <label for="tab4">Drupal</label> -->
+		
+	  <section id="content1">
+		<div class="cd-container">
+			<img src="images/main.jpg" alt="Picture">
+			<div class="mark-div"></div>
+			<div class="text-center"><b>Thịt chiên kiểu Hàn</b></div>
+			<div class="mark-div"></div>
+			<table class="prepare-perform-level">
+				<tr>
+					<th>
+						<p class="cap text-left">Ngày đăng</p>
+					</th>
+					<th>
+						<p class="cap text-right">Giờ đăng</p>
+					</th>		
+				</tr>
+				<tr>
+					<td>
+						<p class="text-left">
+							<span>
+								<img src="img/icon-calendar.png" alt="clock"> 17/12/2016                   
+							</span>
+						</p>
+					</td>
+					<td>
+						<p class="text-right">
+							<span>
+								<img src="img/icon-clock-red.png" alt="clock"> 9:35 AM                   
+							</span>
+						</p>
+					</td>
+				</tr>
+			</table>
+			<div class="streamItemOptions">
+				<div class="likeButton">
+					<a class="icon-link round edit" href="#"></a>
+					<a class="icon-link round delete" href="#"></a>
+				</div> 
+				<div class="shareButton">
+					<a class="icon-link round facebook" href="#"></a>
+					<a class="icon-link round twitter" href="#"></a>
+				</div>   				
+				<!-- </div> -->
+			</div>
+		</div>
+		<div class="cd-container">
+			<img src="images/main.jpg" alt="Picture">
+			<div class="mark-div"></div>
+			<div class="text-center"><b>Thịt chiên kiểu Hàn</b></div>
+			<div class="mark-div"></div>
+			<table class="prepare-perform-level">
+				<tr>
+					<th>
+						<p class="cap text-left">Ngày đăng</p>
+					</th>
+					<th>
+						<p class="cap text-right">Giờ đăng</p>
+					</th>		
+				</tr>
+				<tr>
+					<td>
+						<p class="text-left">
+							<span>
+								<img src="img/icon-calendar.png" alt="clock"> 17/12/2016                   
+							</span>
+						</p>
+					</td>
+					<td>
+						<p class="text-right">
+							<span>
+								<img src="img/icon-clock-red.png" alt="clock"> 9:35 AM                   
+							</span>
+						</p>
+					</td>
+				</tr>
+			</table>
+			<div class="streamItemOptions">
+				<div class="likeButton">
+					<a class="icon-link round edit" href="#"></a>
+					<a class="icon-link round delete" href="#"></a>
+				</div> 
+				<div class="shareButton">
+					<a class="icon-link round facebook" href="#"></a>
+					<a class="icon-link round twitter" href="#"></a>
+				</div>   				
+				<!-- </div> -->
+			</div>
+		</div>
+		<div class="cd-container">
+			<img src="images/main.jpg" alt="Picture">
+			<div class="mark-div"></div>
+			<div class="text-center"><b>Thịt chiên kiểu Hàn</b></div>
+			<div class="mark-div"></div>
+			<table class="prepare-perform-level">
+				<tr>
+					<th>
+						<p class="cap text-left">Ngày đăng</p>
+					</th>
+					<th>
+						<p class="cap text-right">Giờ đăng</p>
+					</th>		
+				</tr>
+				<tr>
+					<td>
+						<p class="text-left">
+							<span>
+								<img src="img/icon-calendar.png" alt="clock"> 17/12/2016                   
+							</span>
+						</p>
+					</td>
+					<td>
+						<p class="text-right">
+							<span>
+								<img src="img/icon-clock-red.png" alt="clock"> 9:35 AM                   
+							</span>
+						</p>
+					</td>
+				</tr>
+			</table>
+			<div class="streamItemOptions">
+				<div class="likeButton">
+					<a class="icon-link round edit" href="#"></a>
+					<a class="icon-link round delete" href="#"></a>
+				</div> 
+				<div class="shareButton">
+					<a class="icon-link round facebook" href="#"></a>
+					<a class="icon-link round twitter" href="#"></a>
+				</div>   				
+				<!-- </div> -->
+			</div>
+		</div>
+	  </section>
+		
+	  <section id="content2">
+		<div class="cd-container">
+			<img src="images/main.jpg" alt="Picture">
+			<div class="mark-div"></div>
+			<div class="text-center"><b>Thịt chiên kiểu Hàn</b></div>
+			<div class="mark-div"></div>
+			<div class="streamItemOptions">
+				<div class="likeButton">
+					<a class="icon-link round delete" href="#"></a>
+				</div> 
+				<div class="shareButton">
+					<a class="icon-link round facebook" href="#"></a>
+					<a class="icon-link round twitter" href="#"></a>
+				</div>   				
+				<!-- </div> -->
+			</div>
+		</div>
+		<div class="cd-container">
+			<img src="images/main.jpg" alt="Picture">
+			<div class="mark-div"></div>
+			<div class="text-center"><b>Thịt chiên kiểu Hàn</b></div>
+			<div class="mark-div"></div>
+			<div class="streamItemOptions">
+				<div class="likeButton">
+					<a class="icon-link round delete" href="#"></a>
+				</div> 
+				<div class="shareButton">
+					<a class="icon-link round facebook" href="#"></a>
+					<a class="icon-link round twitter" href="#"></a>
+				</div>   				
+				<!-- </div> -->
+			</div>
+		</div>
+		<div class="cd-container">
+			<img src="images/main.jpg" alt="Picture">
+			<div class="mark-div"></div>
+			<div class="text-center"><b>Thịt chiên kiểu Hàn</b></div>
+			<div class="mark-div"></div>
+			<div class="streamItemOptions">
+				<div class="likeButton">
+					<a class="icon-link round delete" href="#"></a>
+				</div> 
+				<div class="shareButton">
+					<a class="icon-link round facebook" href="#"></a>
+					<a class="icon-link round twitter" href="#"></a>
+				</div>   				
+				<!-- </div> -->
+			</div>
+		</div>
+	  </section>
+		
+	  <!-- <section id="content3"> -->
+		<!-- <p> -->
+		  <!-- Bacon ipsum dolor sit amet beef venison beef ribs kielbasa. Sausage pig leberkas, t-bone sirloin shoulder bresaola. Frankfurter rump porchetta ham. Pork belly prosciutto brisket meatloaf short ribs. -->
+		<!-- </p> -->
+		<!-- <p> -->
+		  <!-- Brisket meatball turkey short loin boudin leberkas meatloaf chuck andouille pork loin pastrami spare ribs pancetta rump. Frankfurter corned beef beef tenderloin short loin meatloaf swine ground round venison. -->
+		<!-- </p> -->
+	  <!-- </section> -->
+		
+	  <!-- <section id="content4"> -->
+		<!-- <p> -->
+		  <!-- Bacon ipsum dolor sit amet landjaeger sausage brisket, jerky drumstick fatback boudin ball tip turducken. Pork belly meatball t-bone bresaola tail filet mignon kevin turkey ribeye shank flank doner cow kielbasa shankle. Pig swine chicken hamburger, tenderloin turkey rump ball tip sirloin frankfurter meatloaf boudin brisket ham hock. Hamburger venison brisket tri-tip andouille pork belly ball tip short ribs biltong meatball chuck. Pork chop ribeye tail short ribs, beef hamburger meatball kielbasa rump corned beef porchetta landjaeger flank. Doner rump frankfurter meatball meatloaf, cow kevin pork pork loin venison fatback spare ribs salami beef ribs. -->
+		<!-- </p> -->
+		<!-- <p> -->
+		  <!-- Jerky jowl pork chop tongue, kielbasa shank venison. Capicola shank pig ribeye leberkas filet mignon brisket beef kevin tenderloin porchetta. Capicola fatback venison shank kielbasa, drumstick ribeye landjaeger beef kevin tail meatball pastrami prosciutto pancetta. Tail kevin spare ribs ground round ham ham hock brisket shoulder. Corned beef tri-tip leberkas flank sausage ham hock filet mignon beef ribs pancetta turkey. -->
+		<!-- </p> -->
+	  <!-- </section> -->
+		
+	</main>
+<!-- //newsletter-bottom -->
+<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-grids">
+                <div class="row">
+                    <div class="col-md-6 footer-grid wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <h3 style="font-weight: bold">THÔNG TIN WEBSITE</h3>
+                        <div class="footer-grd-left">
+                            <img src="images/6.jpg" class="img-responsive" alt=" " />
+                        </div>
+                        <div class="footer-grd-left" style="text-align:justify">
+                            <p>
+                                Mục tiêu của chúng tôi là tạo ra một cộng động cùng nhau chia sẻ và thưởng thức những bí quyết - công thức nấu những món ăn mỗi ngày. Chúng tôi đang cố gắng để xây dựng một website dựa trên việc đầu tư nghiêm túc vào việc tự sản xuất nội dung và biên tập những thông tin thực sự hữu ích cho người dùng.
+                                Chúng tôi khuyến khích việc chia sẻ đến bạn bè và người thân của bạn đọc những nội dung trên website thông qua mạng xã hội và các diễn đàn khác. Xin vui lòng ghi rõ nguồn nếu sử dụng nội dung của chúng tôi
+                            </p>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                   
+                    <div class="col-md-6 footer-grid wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <h3 style="font-weight: bold">HÌNH ẢNH</h3>
+                        <div class="footer-grd">
+                            <a href="#"><img src="images/7.jpg" class="img-responsive" alt=" " /></a>
+                        </div>
+                        <div class="footer-grd">
+                            <a href="#"><img src="images/8.jpg" class="img-responsive" alt=" " /></a>
+                        </div>
+                        <div class="footer-grd">
+                            <a href="#"><img src="images/7.jpg" class="img-responsive" alt=" " /></a>
+                        </div>
+                        <div class="clearfix"> </div>
+                        <div class="footer-grd">
+                            <a href="#"><img src="images/8.jpg" class="img-responsive" alt=" " /></a>
+                        </div>
+                        <div class="footer-grd">
+                            <a href="#"><img src="images/7.jpg" class="img-responsive" alt=" " /></a>
+                        </div>
+                        <div class="footer-grd">
+                            <a href="#"><img src="images/8.jpg" class="img-responsive" alt=" " /></a>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-bottom wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+		<div class="container">
+			<p>&copy 2016 Cooks. Design by Group03.</p>
+		</div>
+	</div>
+<!-- //footer -->
+<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+</body>
+</html>
