@@ -16,13 +16,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link rel="icon" href="images/icon.png">
 <script src="js/modernizr.js"></script>
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- Custom Theme files -->
+
+	
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/AdminLTE.min.css">
+
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/nguyen.css" rel="stylesheet" />
 <link href="css/hoa.css" rel="stylesheet" />
 <link href="css/reset.css" rel="stylesheet"> 
-<link href="css/style1.css" rel="stylesheet">
 <link href="css/bootstrap-stars.css" rel="stylesheet" type="text/css" media="all"  >
 <style>
 @media (max-width: 640px)
@@ -33,6 +39,296 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		min-height: 150px;
 		background-size: cover;
 	}
+}
+.btn-group{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.btn-group>.btn:first-child {
+    margin-left: 0;
+}
+.btn-group-vertical>.btn, .btn-group>.btn {
+    position: relative;
+    float: left;
+}
+
+.btn {
+    border-radius: 3px;
+    box-shadow: none;
+    border: 1px solid transparent;
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+}
+button, input, select, textarea {
+    font-family: inherit;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+.btn-icon {
+    display: inline-block;
+    min-height: 44px;
+    min-width: 44px;
+    padding: 0!important;
+    cursor: pointer;
+}
+dt.filter {
+    display: none;
+    float: left;
+    margin-left: 0;
+}
+.btn-group>.dropdown-toggle:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.btn-group .btn+.btn
+{
+	margin-left: -1px;
+}
+.btn-group>.btn {
+    position: relative;
+    float: left;
+}
+.btn-info
+{
+	background-color: limegreen;
+}
+.btn-default {
+    background-color: #f4f4f4;
+    color: #444;
+    border-color: #ddd;
+}
+.dropdown-menu {
+    box-shadow: none;
+    border-color: #eee;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+}
+.tools {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+	margin-right: 10px;
+}
+.bold
+{
+	font-weight: bold;
+}
+.util-tools
+{
+	height: 44px;
+    margin-bottom: 0;
+	font-weight: bold;
+}
+.left
+{
+	float: left;
+	min-width: 0;
+	margin-left: 20px;
+    margin-top: 10px;
+}
+.combo {
+    display: block;
+    float: right;
+    width: 100%;
+    min-width: 0;
+}
+.combo {
+    text-align: left;
+}
+.combo {
+    position: relative;
+    height: 2.44444444em;
+    cursor: pointer;
+    outline: 0;
+	font-weight: bold;
+}
+.combo select {
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border: 2px solid #E5E2DB;
+    border-top-right-radius: 44px;
+    border-bottom-right-radius: 44px;
+    border-bottom-left-radius: 44px;
+    border-top-left-radius: 44px;
+    background-clip: padding-box;
+    padding-left: 14px;
+    margin: 0;
+    background-color: #FFF;
+    color: #353A3B;
+    font-family: TensoMedium;
+    text-transform: uppercase;
+    -webkit-appearance: none;
+    outline: 0;
+    z-index: auto;
+}
+.combo ul {
+    display: none;
+}
+.combo:after {
+    position: absolute;
+    right: .77777778em;
+    bottom: 40%;;
+    transform: translate(0,50%);
+    content: url(img/arrow-down.png);
+    color: limegreen;
+    font-size: 1em;
+}
+.content {
+    min-height: 250px;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.cd-container {
+    width: 100%;
+    background: #ffffff;
+    margin: 0px auto;
+    position: relative;
+    z-index: 100;
+    padding: 0px!important;
+}
+.cd-container ul.lst-article {
+    list-style-type: none;
+	margin: 15px auto;    
+	overflow: hidden;
+    padding: 15px 10px 1px 10px;
+    border-radius: 4px;
+}
+.cd-container ul.lst-article li .article-img, 
+.cd-container ul.lst-article li .article-name, 
+.cd-container ul.lst-article li .recipe-ratting {
+    width: 100%;
+    overflow: hidden;
+    margin: 0px auto;
+    position: relative;
+	background: aliceblue;
+}
+.cd-container ul.lst-article li .article-name a {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 15px;
+    height: 26px;
+    display: block;
+    max-height: 26px;
+    padding: 10px 5px;
+    text-align: center;
+}
+.cd-container ul.lst-article li {
+    float: left;
+    width: 48.33333333%;
+    margin-right: 2%;
+    background: #fff;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.3);
+    border-radius: 4px;
+    padding: 1px 1px 3px 1px;
+}
+.cd-container .lst-article .recipe-creator {
+    float: left;
+    width: 93%;
+    padding: 5px;
+    border-top: 1px solid #ececec;
+}
+.cd-container ul.lst-article li .recipe-creator a img {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+}
+.cd-container ul.lst-article li .recipe-creator a {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    line-height: 20px;
+    margin-right: 5px;
+    overflow: hidden;
+}
+.cd-container ul.lst-article li.last-row {
+    margin-right: 0;
+}
+.add-favorite {
+    z-index: 10;
+    position: absolute;
+	top: 15px;
+    left: 15px;
+    color: #3074C1;
+    font-size: 24px;
+}
+@media screen and (max-width: 480px) and (min-width: 120px)
+default.custom.css?v=432:144
+.add-favorite {
+    width: 24px;
+    text-align: center;
+    height: 24px;
+    padding-top: 0;
+    overflow: hidden;
+}
+.article-img {
+    position: relative;
+    background-size: cover;
+    width: 93%;
+    height: 150px;
+    margin: 0 auto 0 auto;
+    position: relative;
+    padding: 10px 10px;
+}
+.streamItemOptions {
+    border-top: solid 1px #EDEEF2;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 18px;
+    height: 44px;
 }
 </style>
 <script src="js/jquery-1.11.1.min.js"></script>
@@ -118,6 +414,274 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<h1>Danh mục công thức</h1>
 		</div>
 	</div>
+	<section class="content">
+		<div class="cd-container">
+			<div class="box box-info">
+                <div class="box-header">
+                  <h3 class="box-title">Lọc kết quả hiển thị</h3>
+                  <!-- tools box -->
+                  <div class="pull-right box-tools">
+                    <button class="btn btn-info btn-sm" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-plus"></i></button>
+                  </div><!-- /. tools -->
+                </div><!-- /.box-header -->
+                <div class="box-body pad" style="display: block;">
+                	<div class="tools">
+						<dl class="util-tools">                        
+							<dt class="filter">
+								<button class="btn-icon filters" id="show-filters" data-target="#fd-filters" data-toggle="collapse" title="Advanced Search">
+									<span class="sr-only">Toggle Search Filters</span>
+									<i class="icon-fdc-filters"></i>
+								</button>
+							</dt>
+							<div class="left">ƯU TIÊN</div>
+							<div class="combo magic-buttons">
+								<select>
+									<option data-href="#">Đề xuất</option>
+									<option data-href="#">Được yêu thích</option>
+									<option data-href="#">Mới nhất</option>
+									<option data-href="#">Dễ nhất</option>
+								</select>
+								<ul>
+									<li class="hover bold">                                       
+										Đề xuất                                        
+									</li>
+									<li class="bold">
+										<a href="#">Được yêu thích</a>                                       
+									</li>
+									<li class="bold">
+										<a href="#">Mới nhất</a>
+									</li>
+									<li class="bold">
+										<a href="#">Dễ nhất</a>
+									</li>
+								</ul>
+							</div>
+						</dl>
+					</div>
+					<div class="tools">
+						<dl class="util-tools">                        
+							<dt class="filter">
+								<button class="btn-icon filters" id="show-filters" data-target="#fd-filters" data-toggle="collapse" title="Advanced Search">
+									<span class="sr-only">Toggle Search Filters</span>
+									<i class="icon-fdc-filters"></i>
+								</button>
+							</dt>
+							<div class="left">CÁCH NẤU</div>
+							<div class="combo magic-buttons">
+								<select>
+									<option data-href="#">Chiên rán</option>
+									<option data-href="#">Kho</option>
+									<option data-href="#">Canh-súp</option>
+									<option data-href="#">Nướng</option>
+									<option data-href="#">Tráng miệng</option>
+								</select>
+								<ul>
+									<li class="hover bold">                                       
+										Chiên rán                                        
+									</li>
+									<li class="bold">
+										<a href="#">Kho</a>                                       
+									</li>
+									<li class="bold">
+										<a href="#">Canh-súp</a>
+									</li>
+									<li class="bold">
+										<a href="#">Nướng</a>
+									</li>
+									<li class="bold">
+										<a href="#">Tráng miệng</a>
+									</li>
+								</ul>
+							</div>
+						</dl>
+					</div> 
+                </div>
+            </div>
+		</div>
+	
+	</section>
+	<!-- <section class="content"> -->
+		<div class="cd-container">
+			<ul class="lst-article">
+				<li>
+					<div class="article-img">
+						<div onclick="javascript:showPopCollRecipe(5551, 0);" class="add-favorite">
+							<img src="img/star.png">
+						</div>
+						<a href="#">							
+							<img src="images/5.jpg" style="height:120px;width: 140px">
+						</a>
+					</div>
+					<div class="article-name">
+						<a href="#">Pizza Ý</a>
+					</div>
+					<div class="recipe-creator">
+						<a href="#">
+                            <img src="img/avatar_1.jpg" class="ava_user">
+                         </a>
+						<a href="#">Bill Gates</a>
+					</div>
+				</li>
+				<li class="last-row">
+					<div class="article-img">
+						<div onclick="javascript:showPopCollRecipe(5551, 0);" class="add-favorite">
+							<img src="img/star.png">
+						</div>
+						<a href="#">							
+							<img src="images/4.jpg" style="height:120px;width: 140px">
+						</a>
+					</div>
+					<div class="article-name">
+						<a href="#">Hamburger Mỹ</a>
+					</div>
+					<div class="recipe-creator">
+						<a href="#">
+                            <img src="img/avatar_2.jpg" class="ava_user">
+                         </a>
+						<a href="#">Enstein</a>
+					</div>
+				</li>
+			</ul>
+			<!-- <div class="article-img"> -->
+				<!-- <div onclick="javascript:showPopCollRecipe(5551, 0);" class="add-favorite"> -->
+					<!-- <img src="img/star.png"> -->
+				<!-- </div> -->
+				<!-- <a href="#"> -->
+					<!-- <img src="images/5.jpg" style="height:160px;width: 100%"> -->
+				<!-- </a> -->
+			<!-- </div> -->
+			<!-- <div class="streamItemOptions"> -->
+				<!-- <div class="likeButton"> -->
+					<!-- <a class="avt-creator"> -->
+						<!-- <img style="width: 75px;height: 75px;" src="img/girl.jpg" class="ava_user" alt="Cô Gái Nhỏ"> -->
+					<!-- </a> -->
+					<!-- <a class="name-creator"> -->
+						<!-- Cô Gái Nhỏ -->
+					<!-- </a> -->
+				<!-- </div>  -->
+			<!-- </div> -->
+		</div>
+	<div class="cd-container">
+			<ul class="lst-article">
+				<li>
+					<div class="article-img">
+						<div onclick="javascript:showPopCollRecipe(5551, 0);" class="add-favorite">
+							<img src="img/star.png">
+						</div>
+						<a href="#">							
+							<img src="images/7.jpg" style="height:120px;width: 140px">
+						</a>
+					</div>
+					<div class="article-name">
+						<a href="#">Bánh tiêu</a>
+					</div>
+					<div class="recipe-creator">
+						<a href="#">
+                            <img src="img/avatar_3.jpg" class="ava_user">
+                         </a>
+						<a href="#">Steve Jobs</a>
+					</div>
+				</li>
+				<li class="last-row">
+					<div class="article-img">
+						<div onclick="javascript:showPopCollRecipe(5551, 0);" class="add-favorite">
+							<img src="img/star.png">
+						</div>
+						<a href="#">							
+							<img src="images/8.jpg" style="height:120px;width: 140px">
+						</a>
+					</div>
+					<div class="article-name">
+						<a href="#">Bánh gạo cay</a>
+					</div>
+					<div class="recipe-creator">
+						<a href="#">
+                            <img src="img/girl.jpg" class="ava_user">
+                         </a>
+						<a href="#">Cô Gái Nhỏ</a>
+					</div>
+				</li>
+			</ul>
+			<!-- <div class="article-img"> -->
+				<!-- <div onclick="javascript:showPopCollRecipe(5551, 0);" class="add-favorite"> -->
+					<!-- <img src="img/star.png"> -->
+				<!-- </div> -->
+				<!-- <a href="#"> -->
+					<!-- <img src="images/5.jpg" style="height:160px;width: 100%"> -->
+				<!-- </a> -->
+			<!-- </div> -->
+			<!-- <div class="streamItemOptions"> -->
+				<!-- <div class="likeButton"> -->
+					<!-- <a class="avt-creator"> -->
+						<!-- <img style="width: 75px;height: 75px;" src="img/girl.jpg" class="ava_user" alt="Cô Gái Nhỏ"> -->
+					<!-- </a> -->
+					<!-- <a class="name-creator"> -->
+						<!-- Cô Gái Nhỏ -->
+					<!-- </a> -->
+				<!-- </div>  -->
+			<!-- </div> -->
+		</div>
+		<div class="cd-container">
+			<ul class="lst-article">
+				<li>
+					<div class="article-img">
+						<div onclick="javascript:showPopCollRecipe(5551, 0);" class="add-favorite">
+							<img src="img/star.png">
+						</div>
+						<a href="#">							
+							<img src="images/10.jpg" style="height:120px;width: 140px">
+						</a>
+					</div>
+					<div class="article-name">
+						<a href="#">Hamburger Bugolgi</a>
+					</div>
+					<div class="recipe-creator">
+						<a href="#">
+                            <img src="img/avatar_4.jpg" class="ava_user">
+                         </a>
+						<a href="#">Lê Tuấn</a>
+					</div>
+				</li>
+				<li class="last-row">
+					<div class="article-img">
+						<div onclick="javascript:showPopCollRecipe(5551, 0);" class="add-favorite">
+							<img src="img/star.png">
+						</div>
+						<a href="#">							
+							<img src="images/cari12 (1).jpg" style="height:120px;width: 140px">
+						</a>
+					</div>
+					<div class="article-name">
+						<a href="#">Cà ri bò viên</a>
+					</div>
+					<div class="recipe-creator">
+						<a href="#">
+                            <img src="img/avatar_6.jpg" class="ava_user">
+                         </a>
+						<a href="#">Maru Taro</a>
+					</div>
+				</li>
+			</ul>
+			<!-- <div class="article-img"> -->
+				<!-- <div onclick="javascript:showPopCollRecipe(5551, 0);" class="add-favorite"> -->
+					<!-- <img src="img/star.png"> -->
+				<!-- </div> -->
+				<!-- <a href="#"> -->
+					<!-- <img src="images/5.jpg" style="height:160px;width: 100%"> -->
+				<!-- </a> -->
+			<!-- </div> -->
+			<!-- <div class="streamItemOptions"> -->
+				<!-- <div class="likeButton"> -->
+					<!-- <a class="avt-creator"> -->
+						<!-- <img style="width: 75px;height: 75px;" src="img/girl.jpg" class="ava_user" alt="Cô Gái Nhỏ"> -->
+					<!-- </a> -->
+					<!-- <a class="name-creator"> -->
+						<!-- Cô Gái Nhỏ -->
+					<!-- </a> -->
+				<!-- </div>  -->
+			<!-- </div> -->
+		</div>
+	<!-- </section> -->
 <!-- //newsletter-bottom -->
 <!-- footer -->
 	<div class="footer">
@@ -174,6 +738,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //footer -->
 <!-- for bootstrap working -->
 	<script src="js/bootstrap.js"></script>
+	<!-- Custom Theme files -->
+    <script src="js/jQuery-2.1.4.min.js"></script>
+    <!-- Bootstrap 3.3.5 -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="js/app.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <!-- CK Editor -->
+    <script src="https://cdn.ckeditor.com/4.4.3/standard/ckeditor.js"></script>
+    <script>
+      $(function () {
+        // Replace the <textarea id="editor1"> with a CKEditor
+        // instance, using default configuration.
+        CKEDITOR.replace('editor1');
+        //bootstrap WYSIHTML5 - text editor
+        $(".textarea").wysihtml5();
+      });
+    </script>
 <!-- //for bootstrap working -->
 </body>
 </html>
