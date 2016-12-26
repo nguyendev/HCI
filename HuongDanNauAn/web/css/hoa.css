@@ -475,6 +475,15 @@ header h1 {
 {
 	background: greenyellow! important;
 }
+.mark-div-my
+{
+	background: aliceblue! important;
+	height: 10px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 106;
+}
 .br-widget
 {
 	width: 100%;
