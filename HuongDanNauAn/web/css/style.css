@@ -1348,7 +1348,7 @@ ul.last1 li{
 	-ms-transition:.5s all;
 }
 .top-social-icons a:hover{
-	background:#AC915A;
+	background: green;
 	color:#fff;
 	border:1px dotted #adadad;
 }
@@ -1557,8 +1557,8 @@ ul.last1 li{
 		margin: 0em 0 3em;
 	}
 	.tags-cate {
-		padding: 2em 0;
-		margin: 2em 0;
+		padding: 1em 0;
+		margin: 1em 0;
 	}
 	.single h1 {
 		font-size: 1.8em;
@@ -1765,7 +1765,7 @@ ul.last1 li{
 		margin: 1em 0 0;
 	}
 	.more a {
-		margin: 2em 0 0;
+		margin: 1em 0 0;
 	}
 	.banner {
 		min-height: 450px;

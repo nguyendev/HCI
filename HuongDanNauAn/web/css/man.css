@@ -34,6 +34,36 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
         width: 100%;
        }
 	   
-.contact{
+.contact, .banner-bottom {
 		padding: 1em 0;
 	}
+	
+.hotnews {
+	margin-bottom : 1em; 
+	text-align:center;
+	color:#F30;
+	font-family: "Times New Roman", Times, serif;
+	font-weight:bold !important;
+}
+
+@media (max-width: 800px)
+.tags-cate {
+    /* padding: 2em 0; */
+    /* margin: 2em 0; */
+    padding-top: 1em;
+    margin-top: 1em;
+}
+
+.tags-cate {
+    /* padding: 3em 0; */
+    border-top: 1px dotted #adadad;
+    border-bottom: 1px dotted #adadad;
+    /* margin: 3em 0; */
+}
+
+.list{
+	padding-left: 1em;	
+	text-align:justify;	
+}
+
+	
