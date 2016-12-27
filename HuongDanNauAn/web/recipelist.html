@@ -242,9 +242,7 @@ dt.filter {
 }
 .cd-container ul.lst-article {
     list-style-type: none;
-	margin: 15px auto;    
 	overflow: hidden;
-    padding: 15px 10px 1px 10px;
     border-radius: 4px;
 }
 .cd-container ul.lst-article li .article-img, 
@@ -330,6 +328,25 @@ default.custom.css?v=432:144
     line-height: 18px;
     height: 44px;
 }
+@media (max-width: 480px)
+{
+	input[type="submit"] 
+	{
+    width: 93%;
+    padding: 10px;
+	}
+}
+
+input[type="submit"] {
+    outline: none;
+    font-size: 16px;
+    font-style: normal;
+    background: green;
+    color: #fff;
+    display: block;
+    border: none;
+	margin: 0 0 10px 10px;
+}
 </style>
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/wow.min.js"></script>
@@ -372,9 +389,9 @@ default.custom.css?v=432:144
 					<nav class="cl-effect-13" id="cl-effect-13">
 						<ul class="nav navbar-nav" style="font-weight: bold !important; font-size: 20px">
 							<li><a href="index.html" class="active">Trang chủ</a></li>
-							<li><a href="events.html">Tin tức</a></li>
-							<li><a href="short-codes.html">Công thức nấu ăn</a></li>
-                            <li><a href="#">Đăng bài mới</a></li>
+							<li><a href="news.html">Tin tức</a></li>
+							<li><a href="recipelist.html">Công thức nấu ăn</a></li>
+                            <!-- <li><a href="#">Đăng bài mới</a></li> -->
 							<!--<li role="presentation" class="dropdown">
 								<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
 								  Services <span class="caret"></span>
@@ -384,8 +401,8 @@ default.custom.css?v=432:144
 								  <li><a href="services.html">Direct Delivery</a></li>
 								</ul>
 							</li>-->
-							<li><a href="mail.html">Diễn đàn</a></li>
-                            <li><a href="#">Liên hệ</a></li>
+							<li><a href="mykitchen.html">Bếp của tôi</a></li>
+                            <li><a href="contact.html">Liên hệ</a></li>
 						</ul>
 					</nav>
 					<div class="social-icons">
@@ -416,6 +433,23 @@ default.custom.css?v=432:144
 	</div>
 	<section class="content">
 		<div class="cd-container">
+			<script src="js/jQuery-2.1.4.min.js"></script>
+			<!-- Bootstrap 3.3.5 -->
+			<script src="js/bootstrap.min.js"></script>
+			<!-- AdminLTE App -->
+			<script src="js/app.min.js"></script>
+			<!-- AdminLTE for demo purposes -->
+			<!-- CK Editor -->
+			<script src="https://cdn.ckeditor.com/4.4.3/standard/ckeditor.js"></script>
+			<script>
+			  $(function () {
+				// Replace the <textarea id="editor1"> with a CKEditor
+				// instance, using default configuration.
+				CKEDITOR.replace('editor1');
+				//bootstrap WYSIHTML5 - text editor
+				$(".textarea").wysihtml5();
+			  });
+			</script>
 			<div class="box box-info">
                 <div class="box-header">
                   <h3 class="box-title">Lọc kết quả hiển thị</h3>
@@ -498,10 +532,7 @@ default.custom.css?v=432:144
                 </div>
             </div>
 		</div>
-	
-	</section>
-	<!-- <section class="content"> -->
-		<div class="cd-container">
+	<div class="cd-container">
 			<ul class="lst-article">
 				<li>
 					<div class="article-img">
@@ -662,25 +693,12 @@ default.custom.css?v=432:144
 					</div>
 				</li>
 			</ul>
-			<!-- <div class="article-img"> -->
-				<!-- <div onclick="javascript:showPopCollRecipe(5551, 0);" class="add-favorite"> -->
-					<!-- <img src="img/star.png"> -->
-				<!-- </div> -->
-				<!-- <a href="#"> -->
-					<!-- <img src="images/5.jpg" style="height:160px;width: 100%"> -->
-				<!-- </a> -->
-			<!-- </div> -->
-			<!-- <div class="streamItemOptions"> -->
-				<!-- <div class="likeButton"> -->
-					<!-- <a class="avt-creator"> -->
-						<!-- <img style="width: 75px;height: 75px;" src="img/girl.jpg" class="ava_user" alt="Cô Gái Nhỏ"> -->
-					<!-- </a> -->
-					<!-- <a class="name-creator"> -->
-						<!-- Cô Gái Nhỏ -->
-					<!-- </a> -->
-				<!-- </div>  -->
-			<!-- </div> -->
 		</div>
+	</section>
+	<input type="submit" value="Xem thêm">
+
+	<!-- <section class="content"> -->
+		
 	<!-- </section> -->
 <!-- //newsletter-bottom -->
 <!-- footer -->
@@ -738,24 +756,6 @@ default.custom.css?v=432:144
 <!-- //footer -->
 <!-- for bootstrap working -->
 	<script src="js/bootstrap.js"></script>
-	<!-- Custom Theme files -->
-    <script src="js/jQuery-2.1.4.min.js"></script>
-    <!-- Bootstrap 3.3.5 -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- AdminLTE App -->
-    <script src="js/app.min.js"></script>
-    <!-- AdminLTE for demo purposes -->
-    <!-- CK Editor -->
-    <script src="https://cdn.ckeditor.com/4.4.3/standard/ckeditor.js"></script>
-    <script>
-      $(function () {
-        // Replace the <textarea id="editor1"> with a CKEditor
-        // instance, using default configuration.
-        CKEDITOR.replace('editor1');
-        //bootstrap WYSIHTML5 - text editor
-        $(".textarea").wysihtml5();
-      });
-    </script>
 <!-- //for bootstrap working -->
 </body>
 </html>

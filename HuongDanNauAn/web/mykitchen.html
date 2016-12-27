@@ -25,12 +25,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
       /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
       @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
 @import url("http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
-*, *:before, *:after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+<!-- *, *:before, *:after { -->
+  <!-- margin: 0; -->
+  <!-- padding: 0; -->
+  <!-- box-sizing: border-box; -->
+<!-- } -->
+input[type="search"] {
+    -webkit-appearance: none;
+    border-radius: 25px;
 }
-
 html, body {
   height: 100%;
 }
@@ -205,6 +208,25 @@ input:checked + label {
 		background-size: cover;
 	}
 }
+@media (max-width: 480px)
+{
+	input[type="submit"] 
+	{
+    width: 93%;
+    padding: 10px;
+	}
+}
+
+input[type="submit"] {
+    outline: none;
+    font-size: 16px;
+    font-style: normal;
+    background: green;
+    color: #fff;
+    display: block;
+    border: none;
+	margin: 0 0 10px 10px;
+}
 </style>
 <!-- js -->
 <script src="js/jquery-1.11.1.min.js"></script>
@@ -251,9 +273,9 @@ input:checked + label {
 					<nav class="cl-effect-13" id="cl-effect-13">
 						<ul class="nav navbar-nav" style="font-weight: bold !important; font-size: 20px">
 							<li><a href="index.html" class="active">Trang chủ</a></li>
-							<li><a href="events.html">Tin tức</a></li>
+							<li><a href="news.html">Tin tức</a></li>
 							<li><a href="recipelist.html">Công thức nấu ăn</a></li>
-                            <li><a href="#">Đăng bài mới</a></li>
+                            <!-- <li><a href="#">Đăng bài mới</a></li> -->
 							<!--<li role="presentation" class="dropdown">
 								<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
 								  Services <span class="caret"></span>
@@ -263,8 +285,8 @@ input:checked + label {
 								  <li><a href="services.html">Direct Delivery</a></li>
 								</ul>
 							</li>-->
-							<li><a href="mail.html">Diễn đàn</a></li>
-                            <li><a href="#">Liên hệ</a></li>
+							<li><a href="mykitchen.html">Bếp của tôi</a></li>
+                            <li><a href="contact.html">Liên hệ</a></li>
 						</ul>
 					</nav>
 					<div class="social-icons">
@@ -279,7 +301,7 @@ input:checked + label {
 				<!-- /.navbar-collapse -->
 			</nav>
             <div class="form-group">
-                <input type="search" value="Tìm kiếm" />
+                <input type="search" />
                 <span class="glyphicon glyphicon-search"></span>
             </div>
 		</div>
@@ -514,7 +536,8 @@ input:checked + label {
 			</div>
 		</div>
 	  </section>
-		
+	  <input type="submit" value="Xem thêm">
+
 	  <!-- <section id="content3"> -->
 		<!-- <p> -->
 		  <!-- Bacon ipsum dolor sit amet beef venison beef ribs kielbasa. Sausage pig leberkas, t-bone sirloin shoulder bresaola. Frankfurter rump porchetta ham. Pork belly prosciutto brisket meatloaf short ribs. -->
