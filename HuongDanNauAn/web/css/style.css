@@ -1136,9 +1136,9 @@ ul.last1 li{
 	}
 .single p.tortor{
 	color: #999;
-	font-size: 14px;
-	line-height: 1.8em;
-	margin:2em 0 0;
+	font-size: 16px;
+	line-height: 1.5em;
+	margin: 1em 0 0;
 }
 .single-right p label{
 	color:#adadad;
@@ -1210,7 +1210,7 @@ ul.last1 li{
 	color:#AC915A;
 	}
 .tom-grid{
-	padding:2em 0;
+	padding:1em 0;
 	border-bottom:1px solid #dddddd;
 	width: 100%;
 	}
@@ -1244,7 +1244,7 @@ ul.last1 li{
 	color:#838383;
 	font-size:14px;
 	margin:0;
-	line-height:30px;
+	line-height:20px;
 	font-style: normal;
 	}
 .Hardy{
