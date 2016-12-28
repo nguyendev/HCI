@@ -680,3 +680,9 @@ header h1 {
     transform: translateX(0);
   }
 }
+.footer-grid h3 {
+    color: #f57708! important;
+}
+input[type="search"] {
+    border-radius: 25px! important;
+}
