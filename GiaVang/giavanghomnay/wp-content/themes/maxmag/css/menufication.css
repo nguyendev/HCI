@@ -1,0 +1,16 @@
+@media screen and (max-width: 1002px) {
+
+	#nav,
+	#search-wrapper {
+		display: none;
+		}
+	
+	#wrapper {
+			-ms-box-shadow: 0 -1px 10px -5px #555;
+			-moz-box-shadow: 0 -1px 10px -5px #555;
+			-o-box-shadow: 0 -1px 10px -5px #555;
+			-webkit-box-shadow: 0 -1px 10px -5px #555;
+		box-shadow: 0 -1px 10px -5px #555;
+		}
+
+}
