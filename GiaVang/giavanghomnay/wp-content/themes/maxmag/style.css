@@ -490,7 +490,7 @@ a:focus {
 
 #logo {
 	float: left;
-	width: 100%;
+	/*width: 100%;*/
 	overflow: hidden;
 	}
 	
@@ -500,7 +500,6 @@ a:focus {
 
 #content-top {
 	background: #fff;
-	border: 1px solid #ccc;
 	float: left;
 	margin-bottom: 20px;
 	width: 958px;
@@ -508,14 +507,16 @@ a:focus {
 
 #ticker {
 	float: left;
+     border: 1px solid #ccc;
 	max-width: 686px;
 	}
 
 ul.ticker-list {
 	display: block;
 	float: left;
+   
 	overflow: hidden;
-	max-width: 610px;
+	
 	height: 30px;
 	}
 
@@ -2435,7 +2436,7 @@ ul.archives li:first-child {
 .sidebar-widget {
 	float: left;
 	font: 400 12px/normal 'Open Sans', sans-serif;
-	margin-bottom: 30px;
+	/*margin-bottom: 30px;*/
 	overflow: hidden;
 	width: 100%;
 	}
@@ -2876,3 +2877,20 @@ ul.latest-comments li {
 		background-size: 264px 60px;
   		}
 	}
+@media screen and (max-width: 360px){
+    ul.ticker-list{
+    max-width: 220px;
+    }
+}
+
+a.text-logo {
+    line-height: 42px;
+    margin-right: 5px;
+    font-size: 23px;
+    padding: 10px;
+    color: #ca0002;
+    font-family: 'Arial';
+    font-weight: bold;
+    text-align:center;
+}
+    
