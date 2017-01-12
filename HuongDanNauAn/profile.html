@@ -16,8 +16,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <link rel="icon" href="images/icon.png">
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!-- Custom Theme files -->
+	<link href="css/AdminLTE.min.css" rel="stylesheet" />
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/AdminLTE.min.css" rel="stylesheet" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/nguyen.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -41,32 +42,32 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <body>
     <!-- header -->
-    <div class="header">
+   <div class="header">
         <div class="container">
             <nav class="navbar navbar-default">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-
                     <div class="logo">
                         <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Cooks" class="img-responsive" /></a>
                     </div>
-                    <div class="">
-                        <a class="navbar-brand-other" href="login.html">
-                            <span class="login-text fa fa-user"> Đăng nhập</span>
-                            
-                        
-                        </a>
-                    </div>
-
-
-
+                    <ul class="navbar-brand-other">
+                        <li>
+                            <a class="login-icon" href="login.html">
+                                <i class="fa fa-user"></i>Đăng nhập
+                            </a>
+                        </li>
+                        <li>
+                            <a class="login-icon" href="login.html">
+                                <i class="fa fa-user"></i>Đăng ký
+                            </a>
+                        </li> 
+                    </ul>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -101,11 +102,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
                 <!-- /.navbar-collapse -->
             </nav>
-            <div class="form-group">
-                <input type="search" value="Tìm kiếm" />
-                <span class="glyphicon glyphicon-search"></span>
-            </div>
-        </div>
+            <div class="input-group">
+                <input type="search" class="form-control" value="Tìm kiếm">
+                <span class="input-group-addon"><i class="fa fa-search"></i></span>
+            </div>    
+        </div>        
     </div>
     <br />
     <!-- header -->
