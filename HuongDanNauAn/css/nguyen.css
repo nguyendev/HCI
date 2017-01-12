@@ -10,20 +10,34 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     color: #fff;
 }
 .navbar-brand-other {
-    float: left;
+    
     height: 80px;
     font-size: 1em;
     line-height: 20px;
     color: #fff !important;
     font-family: 'Alex Brush', cursive;
-    padding: 30px 15px;
-        vertical-align: middle;
+    padding: 15px 15px;
+    vertical-align: middle;
+    list-style: none; 
+
 }
 
 .navbar-brand-other > a {
     display: block;
 }
-
+a.login-icon {
+    float: left;
+    line-height: 42px;
+    margin-right: 5px;
+    font-size: 13px;
+    padding: 10px;
+    color: #fff;
+    font-family: 'Arial';
+}
+a.login-icon > i {
+    margin-right: 5px;
+    
+}
 
 .register, .login {
     background: url(../images/3.jpg) no-repeat 0px 0px;
@@ -261,4 +275,10 @@ ul.nav.navbar-nav > li a.active {
 
 span.login-text {
     font-size:xx-small;
+}
+
+
+search-span {
+    text-align : center;
+    color: white;
 }

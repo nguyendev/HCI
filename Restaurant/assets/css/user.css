@@ -383,7 +383,7 @@ hr.special-food-hr:after {
 	display: inline-block;
 	font-size: 16px;
 	margin: 4px 2px;
-	-webkit-transition-duration: 0.4s;  Safari 
+	-webkit-transition-duration: 0.4s;   
 	transition-duration: 0.4s;
 	cursor: pointer;
 	border-radius: 12px;
@@ -540,7 +540,8 @@ effect image
     position: absolute;
     top: 0;
     left: 0;
-	-webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg); /* Chrome, Safari, Opera */
 }
 
 .phone-reservation {
@@ -561,6 +562,5 @@ border-radius: 6px;
     left: 1.8%;
     right: auto;
     width: 96.66666666666666%;
-    color: 
+    /*color:--!>*/ 
 }
-`
