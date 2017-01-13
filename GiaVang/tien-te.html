@@ -32,10 +32,10 @@
     <link rel='stylesheet' id='media-queries-css' href='wp-content/themes/maxmag/css/media-queries.css' type='text/css' media='all' />
     <link rel='stylesheet' id='menufication-css' href='wp-content/themes/maxmag/css/menufication.css' type='text/css' media='all' />
     <link href="css/googlefont.css" rel="stylesheet" />
-    <link rel='stylesheet' id='youtube-channel-gallery-css' href='wp-content/plugins/youtube-channel-gallery/styles.css?ver=4.3.1' type='text/css' media='all' />
-    <link rel='stylesheet' id='jquery.magnific-popup-css' href='wp-content/plugins/youtube-channel-gallery/magnific-popup.css?ver=4.3.1' type='text/css' media='all' />
-    <link rel='stylesheet' id='menufication-css-css' href='wp-content/plugins/menufication/css/menufication.min.css?ver=4.3.1' type='text/css' media='all' />
-    <link rel='stylesheet' id='tabby.css-css' href='wp-content/plugins/tabby-responsive-tabs/css/tabby.css?ver=1.2.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='youtube-channel-gallery-css' href='wp-content/plugins/youtube-channel-gallery/styles.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='jquery.magnific-popup-css' href='wp-content/plugins/youtube-channel-gallery/magnific-popup.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='menufication-css-css' href='wp-content/plugins/menufication/css/menufication.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='tabby.css-css' href='wp-content/plugins/tabby-responsive-tabs/css/tabby.css' type='text/css' media='all' />
     <script type='text/javascript' src='wp-includes/js/jquery/jquery.js'></script>
     <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js'></script>
     <script type='text/javascript' src='wp-content/plugins/menufication/js/jquery.menufication.min.js'></script>
@@ -137,7 +137,7 @@ window.setInterval('flakeFall();',100);
                         <div class="menu-top_menu-container">
                             <ul id="menu-top_menu" class="menu">
                                 <div id='wp_menufication'>
-                                    <li id="menu-item-3" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3">
+                                    <li id="menu-item-3" class="menu-item menu-item-type-custom menu-item-object-custom current_page_item menu-item-home menu-item-3">
                                         <a href="index.html">Trang chủ</a>
                                         <ul class="sub-menu">
                                             <li id="menu-item-489" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-489">
@@ -146,14 +146,13 @@ window.setInterval('flakeFall();',100);
                                             <li id="menu-item-490" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-490">
                                                 <a href="ty-gia.html">Tỷ giá</a>
                                             </li>
-
                                         </ul>
                                     </li>
 
                                     <li id="menu-item-234" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-234">
                                         <a href="vang.html">Vàng</a>
                                     </li>
-                                    <li id="menu-item-227" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-227">
+                                    <li id="menu-item-227" class="menu-item menu-item-type-taxonomy current-menu-items menu-item-object-category menu-item-227">
                                         <a href="tien-te.html">Tiền tệ</a>
                                     </li>
                                     <li id="menu-item-45427" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-45427">
@@ -161,13 +160,21 @@ window.setInterval('flakeFall();',100);
                                     </li>
                                     <li id="menu-item-44733" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44733">
                                         <a href="tin-tuc.html">Tin tức</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-489" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-489">
+                                                <a href="tin-tuc-chi-tiet.html">Tin tức chi tiết</a>
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li id="menu-item-45527" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-45527">
                                         <a href="tin-video.html">Tin video</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-489" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-489">
+                                                <a href="tin-video-chi-tiet.html">Tin video chi tiết</a>
+                                            </li>
+                                        </ul>
                                     </li>
-                                    <li id="menu-item-45527" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-45527">
-                                        <a href="lien-he.html">Liên hệ</a>
-                                    </li>
+
                                 </div>
                             </ul>
                         </div>
@@ -186,7 +193,7 @@ window.setInterval('flakeFall();',100);
                                     <a itemprop="url" href="index.html">
                                         <img itemprop="logo" src="img/logo.png" width="70" height="60" alt="Giavangtructuyen" />
                                     </a>
-                                    <a class="text-logo">Giá vàng hôm nay</a>
+                                    <div class="" style="text-align:center; float:left;"><a class="text-logo">GIÁ VÀNG HÔM NAY</a></div>
                                 </div>
                                 <!--logo-->
                             </div>
@@ -416,6 +423,237 @@ window.setInterval('flakeFall();',100);
                             </div>
                             <!-- end1 -->
                         </div>
+                        <!--home-right-->
+                        <div class="side-home">
+                            <div id="text-28" class="sidebar-widget widget_text">
+                                <div class="textwidget">
+                                    <br>
+                                </div>
+                            </div>
+                            <div id="maxmag_tabs_widget-2" class="sidebar-widget maxmag_tabs_widget">
+                                <div class="tabber-container">
+                                    <ul class="tabber">
+                                        <li>
+                                            <h4>
+                                                <a href="#tab1">Tin mới </a>
+                                            </h4>
+                                        </li>
+                                        <li>
+                                            <h4>
+                                                <a href="#tab2">Phổ biến</a>
+                                            </h4>
+                                        </li>
+                                        <li>
+                                            <h4>
+                                                <a href="#tab3">Comments</a>
+                                            </h4>
+                                        </li>
+                                    </ul>
+                                    <div id="tab1" class="tabber-content">
+                                        <ul>
+                                            <li>
+                                                <div class="tabber-image">
+                                                    <a href="vang-quay-dau-test-nguong-khang-cu.html" rel="bookmark" title="Vàng trong nước tuần qua: Mất mốc 33 triệu đồng/lượng trước khi hồi phục">
+                                                        <img width="120" height="134" src="wp-content/uploads/2015/12/gia-vang-ngay-21-8-2015__62195_std-120x134.jpg" class="attachment-small-thumb wp-post-image" alt="gia-vang-ngay-21-8-2015__62195_std" />
+                                                    </a>
+                                                </div>
+                                                <div class="tabber-text">
+                                                    <a href="vang-quay-dau-test-nguong-khang-cu.html" class="main-headline">Vàng trong nước tuần qua: Mất mốc 33 triệu đồng/lượng trước khi hồi phục</a>
+                                                    <p>Vàng trong nước tiếp tục đối mặt với những...</p>
+                                                    <div class="headlines-info">
+                                                        <ul class="headlines-info">
+                                                            <li>04/12/2015 3:56:36</li>
+                                                            <li class="comments-icon">
+                                                                <a href="#">0</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <!--headlines-info-->
+                                                </div>
+                                                <!--tabber-text-->
+                                            </li>
+                                            <li>
+                                                <div class="tabber-image">
+                                                    <a href="vang-quay-dau-test-nguong-khang-cu.html" rel="bookmark" title="Vàng quay đầu test ngưỡng kháng cự">
+                                                        <img width="120" height="134" src="wp-content/uploads/2015/12/gold_JTXI-120x134.jpg" class="attachment-small-thumb wp-post-image" alt="17" />
+                                                    </a>
+                                                </div>
+                                                <div class="tabber-text">
+                                                    <a href="vang-quay-dau-test-nguong-khang-cu.html" class="main-headline">Vàng quay đầu test ngưỡng kháng cự</a>
+                                                    <p>Giá vàng tăng trở lại sau 3 phiên giảm...</p>
+                                                    <div class="headlines-info">
+                                                        <ul class="headlines-info">
+                                                            <li>04/12/2015 2:26:29</li>
+                                                            <li class="comments-icon">
+                                                                <a href="/vang-quay-dau-test-nguong-khang-cu/#comments">0</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <!--headlines-info-->
+                                                </div>
+                                                <!--tabber-text-->
+                                            </li>
+                                            <li>
+                                                <div class="tabber-image">
+                                                    <a href="/viet-nam-co-the-dieu-chinh-ty-gia-3-5-trong-nam-2016/" rel="bookmark" title="&#8220;Việt Nam có thể điều chỉnh tỷ giá 3 – 5% trong năm 2016&#8221;">
+                                                        <img width="120" height="134" src="wp-content/uploads/2015/12/1-120x134.jpg" class="attachment-small-thumb wp-post-image" alt="1" />
+                                                    </a>
+                                                </div>
+                                                <div class="tabber-text">
+                                                    <a href="/viet-nam-co-the-dieu-chinh-ty-gia-3-5-trong-nam-2016/" class="main-headline">&#8220;Việt Nam có thể điều chỉnh tỷ giá 3 – 5% trong năm 2016&#8221;</a>
+                                                    <p>Đây là một trong những dự báo của TS....</p>
+                                                    <div class="headlines-info">
+                                                        <ul class="headlines-info">
+                                                            <li>04/12/2015 1:29:21</li>
+                                                            <li class="comments-icon">
+                                                                <a href="/viet-nam-co-the-dieu-chinh-ty-gia-3-5-trong-nam-2016/#comments">0</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <!--headlines-info-->
+                                                </div>
+                                                <!--tabber-text-->
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!--tab1-->
+                                    <div id="tab2" class="tabber-content">
+                                        <ul>
+                                            <li>
+                                                <div class="tabber-image">
+                                                    <a href="vang-quay-dau-test-nguong-khang-cu.html" rel="bookmark" title="Phân tích xu thế, đưa ra quyết định trong ngày">
+                                                        <img width="120" height="134" src="wp-content/uploads/2015/08/ck-chung-khoan_copy_copy_copy_copy1-120x134.jpg" class="attachment-small-thumb wp-post-image" alt="ck-chung-khoan_copy_copy_copy_copy" />
+                                                    </a>
+                                                </div>
+                                                <div class="tabber-text">
+                                                    <a href="vang-quay-dau-test-nguong-khang-cu.html" class="main-headline">Phân tích xu thế, đưa ra quyết định trong ngày</a>
+                                                    <p>Để có cái nhìn khách quan toàn cảnh, chúng...</p>
+                                                    <div class="headlines-info">
+                                                        <ul class="headlines-info">
+                                                            <li>24/08/2015 5:01:10</li>
+                                                            <li class="comments-icon">
+                                                                <a href="#">0</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <!--headlines-info-->
+                                                </div>
+                                                <!--tabber-text-->
+                                            </li>
+                                            <li>
+                                                <div class="tabber-image">
+                                                    <a href="vang-quay-dau-test-nguong-khang-cu.html" rel="bookmark" title="Phân tích xu thế, đưa ra quyết định trong ngày">
+                                                        <img width="120" height="134" src="wp-content/uploads/2015/12/gia-vang-ngay-21-8-2015__62195_std-120x134.jpg" class="attachment-small-thumb wp-post-image" alt="ck-chung-khoan_copy_copy_copy_copy" />
+                                                    </a>
+                                                </div>
+                                                <div class="tabber-text">
+                                                    <a href="vang-quay-dau-test-nguong-khang-cu.html" class="main-headline">Dân không thích chênh lệch giá vàng: &#8220;Phải hỏi đó là dân nào?&#8221;</a>
+                                                    <p>TS Vũ Đình Ánh cho rằng mức chênh giữa...</p>
+                                                    <div class="headlines-info">
+                                                        <ul class="headlines-info">
+                                                            <li>06/05/2013 11:26:55</li>
+                                                            <li class="comments-icon">
+                                                                <a href="#">30</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <!--headlines-info-->
+                                                </div>
+                                                <!--tabber-text-->
+                                            </li>
+                                            <li>
+                                                <div class="tabber-image">
+                                                    <a href="vang-quay-dau-test-nguong-khang-cu.html" rel="bookmark" title="Phân tích xu thế, đưa ra quyết định trong ngày">
+                                                        <img width="120" height="134" src="wp-content/uploads/2015/12/1-120x134.jpg" class="attachment-small-thumb wp-post-image" alt="ck-chung-khoan_copy_copy_copy_copy" />
+                                                    </a>
+                                                </div>
+                                                <div class="tabber-text">
+                                                    <a href="vang-quay-dau-test-nguong-khang-cu.html" class="main-headline">Đấu thầu vàng miếng: Tại sao không đưa mức giá bằng thế giới?</a>
+                                                    <p>Liệu NHNN có thể đưa ra mức giá thấp...</p>
+                                                    <div class="headlines-info">
+                                                        <ul class="headlines-info">
+                                                            <li>22/04/2013 11:29:46</li>
+                                                            <li class="comments-icon">
+                                                                <a href="#">21</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <!--headlines-info-->
+                                                </div>
+                                                <!--tabber-text-->
+                                            </li>
+                                            <li>
+                                                <div class="tabber-image">
+                                                    <a href="vang-quay-dau-test-nguong-khang-cu.html" rel="bookmark" title="Phân tích xu thế, đưa ra quyết định trong ngày">
+                                                        <img width="120" height="134" src="wp-content/uploads/2015/12/gold_JTXI-120x134.jpg" class="attachment-small-thumb wp-post-image" alt="ck-chung-khoan_copy_copy_copy_copy" />
+                                                    </a>
+                                                </div>
+                                                <div class="tabber-text">
+                                                    <a href="vang-quay-dau-test-nguong-khang-cu.html" class="main-headline">Giá vàng tăng vọt trong phiên đấu thầu 26.000 lượng vàng</a>
+                                                    <p>Sáng nay 28/3, Ngân hàng Nhà nước thực hiện...</p>
+                                                    <div class="headlines-info">
+                                                        <ul class="headlines-info">
+                                                            <li>28/03/2013 11:50:46</li>
+                                                            <li class="comments-icon">
+                                                                <a href="vang-quay-dau-test-nguong-khang-cu.html">20</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <!--headlines-info-->
+                                                </div>
+                                                <!--tabber-text-->
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!--tab2-->
+                                    <div id="tab3" class="tabber-content">
+                                        <ul class="latest-comments">
+                                            <li>
+                                                <div class="comment-image">
+                                                    <img alt='' src='http://0.gravatar.com/avatar/c591e7b99a2c4fea1fd153b4295551a2?s=50&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/c591e7b99a2c4fea1fd153b4295551a2?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />
+                                                </div>
+                                                <div class="comment-text">
+                                                    <span>Danh Nguyen says:</span>
+                                                    <br />
+                                                    <p>
+                                                        <a href="#" title="Giavang.net on Oilngold: PTKT thị trường vàng, bạc, dầu ngày 14/5">Dầu khó phục hồi về vùng 100$ như trước đây...</a>
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="comment-image">
+                                                    <img alt='' src='http://2.gravatar.com/avatar/24ac645b1d6a52927469134f3d0a65d9?s=50&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/24ac645b1d6a52927469134f3d0a65d9?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />
+                                                </div>
+                                                <div class="comment-text">
+                                                    <span>kieu xuan tung says:</span>
+                                                    <br />
+                                                    <p>
+                                                        <a href="#" title="kieu xuan tung on Thời điểm khó khăn để dự đoán giá vàng">Neu kinh te My khoi phuc that su thi gia usd ...</a>
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="comment-image">
+                                                    <img alt='' src='http://2.gravatar.com/avatar/24ac645b1d6a52927469134f3d0a65d9?s=50&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/24ac645b1d6a52927469134f3d0a65d9?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />
+                                                </div>
+                                                <div class="comment-text">
+                                                    <span>kieu xuan tung says:</span>
+                                                    <br />
+                                                    <p>
+                                                        <a href="#" title="kieu xuan tung on Toàn cảnh thị trường vàng năm 2013: Trượt dốc thê thảm!">Dieu gi se xay ra trong tuong lai gan neu cac...</a>
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!--tab3-->
+                                </div>
+                                <!--tabber-container-->
+                            </div>
+                            <div id="text-30" class="sidebar-widget widget_text">
+                            </div>
+                            <!--side-home-->
+                        </div>
                     </div>
 
 
@@ -461,7 +699,7 @@ window.setInterval('flakeFall();',100);
                             </div>
                             <div id="text-16" class="footer-widget widget_text">
                                 <h3>Giới thiệu</h3>
-                                <div class="textwidget">
+                                <div class="textwidget" style="text-align:justify">
                                     Giavangtructuyen là một trong những website có rất nhiều cách tiếp cận thông tin hiệu quả với thị trường vàng. Với những biến động thị trường vàng, tiền tệ... được cập nhật liên tục, chính xác. Giavangtructuyen giúp các nhà đầu tư không phải bỏ thời gian tìm kiếm các thông tin về các diễn biến thị trường tài chính thế giới… từ đó giúp các nhà đầu tư đưa ra các chiến thuật đầu tư của bản thân trên thị trường.
 
                                     <br>
@@ -476,81 +714,9 @@ window.setInterval('flakeFall();',100);
                     <!--footer-top-wrapper-->
                     <div id="footer-bottom-wrapper">
                         <div id="footer-bottom">
-                            <div id="footer-nav1">
-                                <div class="menu-top_menu-container">
-                                    <ul id="menu-top_menu-1" class="menu">
-                                        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-3">
-                                            <a href="index.html">Trang chủ</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-489">
-                                                    <a href="bang-gia-vang.html">Bảng giá vàng</a>
-                                                </li>
-                                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-490">
-                                                    <a href="bieu-do.html">Biểu đồ</a>
-                                                </li>
-
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-221">
-                                            <a href="vang.html">Vàng</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-222">
-                                                    <a href="vang-the-gioi.html">Vàng thế giới</a>
-                                                </li>
-                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-223">
-                                                    <a href="vang-trong-nuoc.html">Vàng trong nước</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36990">
-                                            <a href="ty-gia.html">Tỷ giá</a>
-                                        </li>
-                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-234">
-                                            <a href="tien-te.html">Tiền tệ</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-235">
-                                                    <a href="tien-te-the-gioi.html">Tiền tệ thế giới</a>
-                                                </li>
-                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-236">
-                                                    <a href="tien-te-viet-nam.html">Tiền tệ Việt Nam</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-227">
-                                            <a href="phan-tich.html/">Phân tích</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-230">
-                                                    <a href="phan-tich-vang.html">Phân tích Vàng</a>
-                                                </li>
-                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-229">
-                                                    <a href="phan-tich-ngoai-hoi.html">Phân tích Ngoại hối</a>
-                                                </li>
-
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-45427">
-                                            <a href="kinh-te.html">Kinh tế</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-45428">
-                                                    <a href="kinh-te-the-gioi.html">Kinh tế Thế giới</a>
-                                                </li>
-                                                <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-45429">
-                                                    <a href="kinh-te-viet-nam.html">Kinh tế Việt Nam</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44733">
-                                            <a href="thong-tin.html">Thông tin</a>
-                                        </li>
-                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-45527">
-                                            <a href="du-lieu.html">Dữ liệu</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
                             <!--footer-nav1-->
                             <div id="copyright">
-                                <p>Copyright © 2015 GiaVangTrucTuyen - Group08HCI.SE215.G11</p>
+                                <p>Copyright © 2016 GiaVangHomNay - Group03</p>
                             </div>
                             <!--copyright-->
                         </div>

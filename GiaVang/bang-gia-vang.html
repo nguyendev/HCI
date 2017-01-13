@@ -32,10 +32,10 @@
     <link rel='stylesheet' id='media-queries-css' href='wp-content/themes/maxmag/css/media-queries.css' type='text/css' media='all' />
     <link rel='stylesheet' id='menufication-css' href='wp-content/themes/maxmag/css/menufication.css' type='text/css' media='all' />
     <link href="css/googlefont.css" rel="stylesheet" />
-    <link rel='stylesheet' id='youtube-channel-gallery-css' href='wp-content/plugins/youtube-channel-gallery/styles.css?ver=4.3.1' type='text/css' media='all' />
-    <link rel='stylesheet' id='jquery.magnific-popup-css' href='wp-content/plugins/youtube-channel-gallery/magnific-popup.css?ver=4.3.1' type='text/css' media='all' />
-    <link rel='stylesheet' id='menufication-css-css' href='wp-content/plugins/menufication/css/menufication.min.css?ver=4.3.1' type='text/css' media='all' />
-    <link rel='stylesheet' id='tabby.css-css' href='wp-content/plugins/tabby-responsive-tabs/css/tabby.css?ver=1.2.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='youtube-channel-gallery-css' href='wp-content/plugins/youtube-channel-gallery/styles.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='jquery.magnific-popup-css' href='wp-content/plugins/youtube-channel-gallery/magnific-popup.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='menufication-css-css' href='wp-content/plugins/menufication/css/menufication.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='tabby.css-css' href='wp-content/plugins/tabby-responsive-tabs/css/tabby.css' type='text/css' media='all' />
     <script type='text/javascript' src='wp-includes/js/jquery/jquery.js'></script>
     <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js'></script>
     <script type='text/javascript' src='wp-content/plugins/menufication/js/jquery.menufication.min.js'></script>
@@ -146,7 +146,6 @@ window.setInterval('flakeFall();',100);
                                             <li id="menu-item-490" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-490">
                                                 <a href="ty-gia.html">Tỷ giá</a>
                                             </li>
-
                                         </ul>
                                     </li>
 
@@ -161,20 +160,27 @@ window.setInterval('flakeFall();',100);
                                     </li>
                                     <li id="menu-item-44733" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-44733">
                                         <a href="tin-tuc.html">Tin tức</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-489" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-489">
+                                                <a href="tin-tuc-chi-tiet.html">Tin tức chi tiết</a>
+                                            </li>
+                                        </ul>
                                     </li>
                                     <li id="menu-item-45527" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-45527">
                                         <a href="tin-video.html">Tin video</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-489" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-489">
+                                                <a href="tin-video-chi-tiet.html">Tin video chi tiết</a>
+                                            </li>
+                                        </ul>
                                     </li>
-                                    <li id="menu-item-45527" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-45527">
-                                        <a href="lien-he.html">Liên hệ</a>
-                                    </li>
+
                                 </div>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--nav-->
             <!--nav-->
             <div id="wrapper">
                 <div id="wallpaper"></div>
@@ -187,7 +193,7 @@ window.setInterval('flakeFall();',100);
                                     <a itemprop="url" href="index.html">
                                         <img itemprop="logo" src="img/logo.png" width="70" height="60" alt="Giavangtructuyen" />
                                     </a>
-                                    <a class="text-logo">Giá vàng hôm nay</a>
+                                    <div class="" style="text-align:center; float:left;"><a class="text-logo">GIÁ VÀNG HÔM NAY</a></div>
                                 </div>
                                 <!--logo-->
                             </div>
@@ -218,19 +224,12 @@ window.setInterval('flakeFall();',100);
                             </div>
                             <!--ticker-->
                             <br>
-                            <script async src="pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                            <!-- Responsive_Under_Menu -->
-                            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2022613271072322" data-ad-slot="2835700891" data-ad-format="auto"></ins>
-                            <script>
-                                (adsbygoogle = window.adsbygoogle || []).push({});
-                            </script>
-                            <br>
                         </div>
                         <!-- Nguyen Content -->
                         <h1>Bảng giá vàng - Giá vàng hôm nay</h1>
                         </br>
 
-                        <table width="100%" class="CSSTableGenerator">
+                        <table class="CSSTableGenerator">
                             <tbody>
                                 <tr class="CSSTableGenerator">
                                     <th width="32%" bgcolor="#cc3300"><div align="left"><font color="#ffffff">GIÁ VÀNG THẾ GIỚI</font></div></th>
@@ -726,7 +725,7 @@ window.setInterval('flakeFall();',100);
                             </div>
                             <div id="text-16" class="footer-widget widget_text">
                                 <h3>Giới thiệu</h3>
-                                <div class="textwidget">
+                                <div class="textwidget" style="text-align:justify">
                                     Giavanghomnay là một trong những website có rất nhiều cách tiếp cận thông tin hiệu quả với thị trường vàng. Với những biến động thị trường vàng, tiền tệ... được cập nhật liên tục, chính xác. Giavanghomnay giúp các nhà đầu tư không phải bỏ thời gian tìm kiếm các thông tin về các diễn biến thị trường tài chính thế giới… từ đó giúp các nhà đầu tư đưa ra các chiến thuật đầu tư của bản thân trên thị trường.
 
                                     <br>
@@ -858,6 +857,7 @@ window.setInterval('flakeFall();',100);
             <!-- Start Novanet Native Ads Code - GiaVang -->
             <script type="text/javascript" src="http://script.novanet.vn/native_ads/giavang_native_embed.js"></script>
             <!-- End Novanet Native Ads Code - GiaVang -->
+
 
 </body>
 </html>
